@@ -1,0 +1,8 @@
+[build]
+  # Run from root to access sync script and content
+  base = "."
+  publish = "site/.next"
+  command = "chmod +x sync_content.sh && ./sync_content.sh && cd site && npm install && npm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"

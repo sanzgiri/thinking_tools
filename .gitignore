@@ -1,0 +1,27 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# System
+.DS_Store
+
+# Next.js
+site/node_modules/
+site/.next/
+site/out/
+site/build/
+site/.env
+site/.env.local
+site/.env.development.local
+site/.env.test.local
+site/.env.production.local
+
+# Generated Content (Synced copies)
+site/content/
+site/src/data/tools.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
