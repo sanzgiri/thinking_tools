@@ -18,6 +18,13 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <p>Based on &quot;Intuition Pumps and Other Tools for Thinking&quot; by Daniel C. Dennett.</p>
+        <p className={styles.signature}>
+          Created by Ashutosh Sanzgiri{' '}
+          &middot;{' '}
+          <a href="https://sanzgiri.github.io/portfolio/" target="_blank" rel="noopener noreferrer">Portfolio</a>{' '}
+          &middot;{' '}
+          <a href="https://github.com/sanzgiri/thinking_tools" target="_blank" rel="noopener noreferrer">Source</a>
+        </p>
       </footer>
     </div>
   );

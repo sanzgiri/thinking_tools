@@ -192,3 +192,18 @@
   color: var(--text-muted);
   font-size: 0.875rem;
 }
+
+.signature {
+  margin-top: 0.5rem;
+  font-size: 0.8125rem;
+  opacity: 0.8;
+}
+
+.signature a {
+  color: var(--primary-color);
+  transition: opacity 0.2s;
+}
+
+.signature a:hover {
+  opacity: 0.7;
+}
