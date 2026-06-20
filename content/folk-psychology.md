@@ -33,3 +33,7 @@ To gamify the concept of Folk Psychology, an app could be designed as follows:
 * Social Features: Users can share their scores and insights with friends, encouraging discussion and collaboration in understanding complex social interactions.
 
 By incorporating elements of gamification, this app would make learning about Folk Psychology an enjoyable experience while simultaneously helping users improve their ability to predict others' behavior accurately.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

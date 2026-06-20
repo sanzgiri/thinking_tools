@@ -25,3 +25,7 @@ An app based on the Deepity concept could be designed to help users improve thei
 4. A community feature where users can share their findings and discuss the nuances of different statements.
 5. Educational resources and articles on critical thinking, philosophy, and the art of interpreting complex ideas.
 6. Personalized recommendations based on the user's proficiency level and areas for improvement.
+
+
+## References
+- [Daniel Dennett: Tools for Critical Thinking - Farnam Street, accessed November 28, 2025](https://fs.blog/daniel-dennett-critical-thinking/)

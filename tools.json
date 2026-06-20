@@ -8,7 +8,8 @@
     "ios_app": "Y",
     "detailed_description": "The first tool strikes at the heart of intellectual paralysis: the fear of error. Dennett argues that the history of philosophy\u2014and indeed, biological evolution itself\u2014is essentially a history of mistakes.6 Biological evolution is a process of trial and error where the \"errors\" (mutations) are the raw material for improvement. Similarly, in the cognitive domain, mistakes are the only way new data enters the system. If one never makes a mistake, one is likely only repeating established tautologies.\nThe crucial distinction Dennett draws is between \"making\" mistakes and \"committing\" them.7 To \"make\" a mistake is to generate an error, recognize it, and learn from it\u2014a constructive process. To \"commit\" a mistake is to persist in the error or hide it. The thinking tool here is the cultivation of a \"connoisseurship\" of one\u2019s own mistakes.8",
     "implementation_strategy": "The app must counteract the user's dopamine-driven desire for \"perfect scores.\"\n* Exercise: The Error Archive. This module functions as a specialized journal. The user is prompted to document a specific, recent judgment error (e.g., \"I thought the meeting was at 2 PM,\" or \"I assumed the article was true based on the headline\"). The interface then forces a \"Dissection Phase\": the user must tag the error type (e.g., Heuristic Failure, Fact Deficit, Emotional Bias) and write a \"Post-Mortem\" analyzing the causal chain.\n* Gamification: Users earn \"XP\" (Experience Points) not for being right, but for the depth of their error analysis. A \"streak\" is maintained by logging at least one mistake daily, reinforcing the habit of transparent self-correction.6",
-    "sort_num": 1
+    "sort_num": 1,
+    "slug": "making-mistakes"
   },
   {
     "number": "2",
@@ -19,7 +20,8 @@
     "ios_app": "Y",
     "detailed_description": "The reductio ad absurdum is a classic logical maneuver, but Dennett reframes it as a tool for exposing structural flaws through parody.2 The technique involves taking an opponent's argument structure\u2014preserving the logic but changing the variables\u2014to show that it leads to a ridiculous or contradictory conclusion. This is not merely mockery; it is a stress test for logical validity. If the logic holds water, it should work across different contexts; if it produces absurdity in a parallel context, the structure itself is flawed.",
     "implementation_strategy": "* Exercise: The Absurdity Slider. The user is presented with a generated \"Serious Argument\" (e.g., \"We should ban cars because they cause accidents\"). The user must then select a \"Parallel Context\" (e.g., Kitchen Knives). The app automatically maps the logic: \"We should ban kitchen knives because they cause cuts.\" The user then adjusts a slider to find the \"Breaking Point\" where the logic becomes visibly absurd.\n* Technical Note: This requires a template-based logic engine where premises and conclusions are treated as variables ($P \\to Q$).",
-    "sort_num": 2
+    "sort_num": 2,
+    "slug": "reductio-ad-absurdum"
   },
   {
     "number": "3",
@@ -30,7 +32,8 @@
     "ios_app": "Y",
     "detailed_description": "Developed by social psychologist Anatol Rapoport, these rules are the antidote to the \"Straw Man\" fallacy.8 They are arguably the most critical tool for constructive discourse. The rules dictate that before one is permitted to criticize an opponent's position, one must:\n1. Re-express the opponent's position so clearly and fairly that the opponent says, \"Thanks, I wish I\u2019d thought of putting it that way.\"\n2. List any points of agreement.\n3. Mention anything learned from the opponent.\n4. Only then may one rebut or criticize.\nThis tool operationalizes \"charity\" in interpretation, ensuring that one is attacking the strongest possible version of the opposing view (the \"Steel Man\") rather than a weak caricature.4",
     "implementation_strategy": "* Exercise: The Gatekeeper. The user enters a debate mode (simulated via LLM or asynchronous pvp). The \"Reply\" text box is locked. To unlock it, the user must first type a summary of the opponent's argument. An NLP (Natural Language Processing) sentiment and semantic analysis algorithm evaluates the summary. If it is derogatory, inaccurate, or dismissive, the gate remains locked with feedback: \"You haven't understood them yet. Try again.\"",
-    "sort_num": 3
+    "sort_num": 3,
+    "slug": "rapoport-s-rules"
   },
   {
     "number": "4",
@@ -41,7 +44,8 @@
     "ios_app": "Y",
     "detailed_description": "\"Ninety percent of everything is crud.\" This adage, coined by science fiction writer Theodore Sturgeon, defends genres against elitist dismissal.8 Critics often attack a field (e.g., philosophy, sci-fi, psychology) by pointing to its worst examples. Sturgeon\u2019s Law reminds us that the worst examples of any field are terrible. To judge a field fairly, one must ignore the bottom 90% (the crud) and evaluate the top 10%.",
     "implementation_strategy": "* Exercise: Crud Filter. A curation mini-game. The user is presented with a stream of 10 items (e.g., 10 philosophical quotes, 10 abstract paintings, 10 sci-fi book covers). Nine are procedurally generated nonsense or low-quality/clich\u00e9 inputs; one is a genuine classic. The user must rapidly swipe left on the \"crud\" and swipe right on the \"gem.\" This trains the user to rapidly identify quality and disregard background noise without condemning the entire category.",
-    "sort_num": 4
+    "sort_num": 4,
+    "slug": "sturgeon-s-law"
   },
   {
     "number": "5",
@@ -52,7 +56,8 @@
     "ios_app": "Y",
     "detailed_description": "Attributed to William of Occam, this principle\u2014pluralitas non est ponenda sine necessitate\u2014advises that one should not multiply entities beyond necessity.7 It is a heuristic for parsimony. Among competing hypotheses that explain the data equally well, the one requiring the fewest assumptions is preferable. Dennett treats this not as a metaphysical truth (the universe isn't necessarily simple) but as a practical strategy for burden of proof.",
     "implementation_strategy": "* Exercise: The Shaving Block. Users are presented with a \"Mystery\" (e.g., \"The cookies are missing\") and a series of \"Theories.\"\n   * Theory A: \"A thief stole them.\" (Assumes: Thief).\n   * Theory B: \"Invisible elves stole them and erased the security footage.\" (Assumes: Elves, Magic, Tech-savvy Elves).\n   * The user must highlight the \"Entities\" in each theory and \"Shave\" (delete) the theory with the highest entity count.",
-    "sort_num": 5
+    "sort_num": 5,
+    "slug": "occam-s-razor"
   },
   {
     "number": "6",
@@ -63,7 +68,8 @@
     "ios_app": "Y",
     "detailed_description": "A Dennett original, this tool describes the reverse of the Razor: the intellectual dishonesty of sweeping inconvenient facts under the rug.8 \"Occam's Broom\" is used by conspiracy theorists and creationists who construct elaborate theories that seem consistent only because they have strategically omitted contradictory evidence. The thinking tool is the ability to ask: \"What is not being told to me?\"",
     "implementation_strategy": "* Exercise: The Missing Evidence. The user reads a persuasive, seemingly logical argument. They are then given a \"Fact Bank.\" They must identify which facts from the bank effectively dismantle the argument. If the argument ignored these facts, the user labels it \"Broomed.\"",
-    "sort_num": 6
+    "sort_num": 6,
+    "slug": "occam-s-broom"
   },
   {
     "number": "7",
@@ -74,7 +80,8 @@
     "ios_app": "Y",
     "detailed_description": "Dennett advises academics to explain their work to laypeople to keep themselves honest.1 When experts speak only to experts, they often rely on shared jargon (\"shorthand\") that masks gaps in their understanding. Explaining a concept to a novice forces the thinker to dissolve the jargon and reconstruct the logic from the ground up. If you can't explain it simply, you don't understand it (often attributed to Feynman or Einstein).",
     "implementation_strategy": "* Exercise: The ELI5 Challenge. (Explain Like I'm 5). The user is given a complex philosophical term (e.g., \"Epiphenomenalism\"). They must type an explanation. An AI \"Child Persona\" analyzes the text. If the user utilizes restricted words (jargon like \"causal closure,\" \"mental states\"), the Child interrupts: \"I don't know that word!\" The user succeeds only by using simple, foundational language.",
-    "sort_num": 7
+    "sort_num": 7,
+    "slug": "lay-audiences-as-decoys"
   },
   {
     "number": "8",
@@ -85,7 +92,8 @@
     "ios_app": "Y",
     "detailed_description": "Coined by Douglas Hofstadter, this acronym describes the essence of creativity and paradigm shifts.8 To solve a truly difficult problem, one cannot simply follow the rules of the system; one must violate them. However, one cannot effectively break the rules until one has mastered them. \"Jootsing\" is the act of recognizing the boundaries of the current system and stepping laterally outside them.",
     "implementation_strategy": "* Exercise: The Unsolvable Puzzle. The user is presented with a logic puzzle (e.g., a nine-dot problem) confined within a frame. The puzzle is mathematically impossible to solve within the frame. The solution requires the user to drag their finger off the active game board into the \"UI Chrome\" or settings menu to connect the lines. This forces the cognitive leap of \"leaving the system.\"",
-    "sort_num": 8
+    "sort_num": 8,
+    "slug": "jootsing"
   },
   {
     "number": "9",
@@ -96,7 +104,8 @@
     "ios_app": "Y",
     "detailed_description": "Dennett devotes significant energy to critiquing Stephen Jay Gould, his rival in evolutionary theory. He categorizes Gould\u2019s rhetorical sleights of hand into three types:\n1. Rathering: Presenting a false dichotomy where the author critiques position A and offers position B as the alternative (\"It is rather B\"), when in fact B is compatible with A.2\n2. Piling On: Listing disparate objections to a theory to create an impression of overwhelming failure, even if the objections are contradictory or trivial.\n3. The Gould Two-Step: Attacking a \"Straw Man\" version of a theory to discredit it, then retreating to a \"Motte and Bailey\" defense when challenged.",
     "implementation_strategy": "* Exercise: Fallacy Sniper. A text-analysis game. The user reads transcripts of debates. They must highlight sections and tag them with the specific \"Goulding\" species. For example, spotting a \"rather\" clause that presents a false choice triggers a \"Rathering Alert.\"",
-    "sort_num": 9
+    "sort_num": 9,
+    "slug": "three-species-of-goulding"
   },
   {
     "number": "10",
@@ -107,7 +116,8 @@
     "ios_app": "Y",
     "detailed_description": "Dennett warns that when a philosopher uses the word \"surely\" (e.g., \"Surely we all agree that...\"), it is often a blinking red light indicating a weak point in the argument.8 It marks the moment where the author relies on intuition and social pressure because they lack a rigorous argument. It is a \"mental block\" designed to stop the reader from asking for evidence.",
     "implementation_strategy": "* Exercise: The Surely Alarm. A speed-reading exercise. Text scrolls rapidly. The user must tap a button every time the word \"surely\" (or synonyms like \"obviously,\" \"clearly\") appears. Upon tapping, the text pauses, and the user must predict why the author used it: \"Is there evidence here? Y/N.\"",
-    "sort_num": 10
+    "sort_num": 10,
+    "slug": "the-surely-operator"
   },
   {
     "number": "11",
@@ -118,7 +128,8 @@
     "ios_app": "Y",
     "detailed_description": "Similar to the \"Surely\" operator, rhetorical questions are often used to bully the reader into agreement without providing a reason.5 Dennett\u2019s advice is to treat every rhetorical question as a genuine one. When an author asks, \"Who could possibly doubt this?\", the reader should immediately answer, \"I could!\" and look for the reason why.",
     "implementation_strategy": "* Exercise: The Devil\u2019s Answer. Users are presented with rhetorical questions from famous political or philosophical texts. They must type a literal answer that contradicts the implied consensus.\n   * Prompt: \"Do we want our children to grow up in a world of chaos?\"\n   * User Input: \"Yes, if chaos implies freedom from totalitarian control.\"",
-    "sort_num": 11
+    "sort_num": 11,
+    "slug": "rhetorical-questions"
   },
   {
     "number": "12",
@@ -129,7 +140,8 @@
     "ios_app": "Y",
     "detailed_description": "A \"deepity\" is a proposition that seems profound because it equivocates between two meanings.8\n1. Meaning A: True but trivial.\n2. Meaning B: Profound but false (or nonsensical).\nThe listener hears the truth of A and is impressed by the profundity of B, failing to notice they are different propositions. Example: \"Love is just a word.\" (True: it is a word. False: It is merely a word and nothing else).",
     "implementation_strategy": "* Exercise: Deepity Dissector. The user receives \"Inspirational Quotes\" often found on social media. They must use a \"Scalpel\" tool to slice the sentence into two interpretations. They must label one \"Trivial/True\" and the other \"Profound/False.\" If they cannot find a \"True/Profound\" combination, they label it a Deepity.",
-    "sort_num": 12
+    "sort_num": 12,
+    "slug": "what-is-a-deepity"
   },
   {
     "number": "13",
@@ -140,7 +152,8 @@
     "ios_app": "Y",
     "detailed_description": "Dennett uses this narrative to attack the idea that \"beliefs\" are discrete, sentence-like packets stored in the brain.1 He describes a scenario where four different people (Jacques, Sherlock, Tom, Boris) all come to believe \"A Frenchman committed murder in Trafalgar Square.\" However, their pathways to this belief\u2014and the neural states representing it\u2014are radically different (one saw it, one read it in the Times, one deduced it). Therefore, the \"belief\" is an abstraction (a shared property of their state), not a concrete biological object.",
     "implementation_strategy": "* Exercise: The Rashomon Effect. The user watches a short animation of an event. They are then tasked with \"programming\" the minds of three witnesses. They cannot simply insert the text \"I saw a crime.\" They must drag and drop different \"sensory inputs\" and \"prior knowledge blocks\" to construct the mental state. The app demonstrates that while the output belief is the same, the internal architecture is unique.",
-    "sort_num": 13
+    "sort_num": 13,
+    "slug": "murder-in-trafalgar-square"
   },
   {
     "number": "14",
@@ -151,7 +164,8 @@
     "ios_app": "Y",
     "detailed_description": "This thought experiment critiques the notion of \"implanting\" beliefs via neurosurgery.1 If a surgeon wires a brain to think \"I have a brother in Cleveland,\" but the patient has no brother, the \"belief\" fails to function. When asked \"What is his name?\" or \"What does he do?\", the patient draws a blank or hallucinates. A belief is not a standalone object; it is embedded in a holistic network of other beliefs and world-relations. Without the context, the \"belief\" is just a malfunction.",
     "implementation_strategy": "* Exercise: Context Weaver. The user acts as the \"Neurosurgeon.\" They attempt to insert a specific false belief into a character (e.g., \"I can fly\"). They then run a \"Reality Simulation.\" The character attempts to act on the belief (jumping off a roof). The simulation crashes or results in injury. The user must then add supporting beliefs (e.g., \"Gravity doesn't apply to me,\" \"I have wings\") to sustain the illusion, illustrating the holistic nature of belief.",
-    "sort_num": 14
+    "sort_num": 14,
+    "slug": "older-brother-in-cleveland"
   },
   {
     "number": "15",
@@ -162,7 +176,8 @@
     "ios_app": "Y",
     "detailed_description": "A child says, \"Daddy is a doctor.\" The child does not know about medical school, licenses, or malpractice. Does the child understand the sentence? Dennett argues understanding is not binary.9 It is a gradient. The child \"sorta\" understands. Philosophy often errs by demanding absolute definitions of \"knowledge.\"",
     "implementation_strategy": "* Exercise: The Understanding Slider. A word appears (e.g., \"Taxation\"). The user is presented with definitions ranging from a toddler's (\"Giving money to the bad man\") to an economist's. The user must slide a bar to match a specific \"Persona\" (e.g., a 10-year-old, a libertarian, an IRS agent) to the correct level of granularity.",
-    "sort_num": 15
+    "sort_num": 15,
+    "slug": "daddy-is-a-doctor"
   },
   {
     "number": "16",
@@ -173,7 +188,8 @@
     "ios_app": "Y",
     "detailed_description": "Derived from Wilfrid Sellars, this tool distinguishes between the world as we experience it (colors, solid objects, values) and the world as science describes it (colorless atoms, empty space, forces).1 The philosophical task is to reconcile these two images\u2014to see how the Scientific Image supports the Manifest Image rather than simply obliterating it.",
     "implementation_strategy": "* Exercise: Lens Toggle. An Augmented Reality (AR) concept. The user points the camera at an object (e.g., a table). In \"Manifest Mode,\" it describes the table as \"Brown, Solid, Wood.\" In \"Scientific Mode,\" it renders it as a lattice of atoms and void. The user must identify the \"Bridge Laws\" that explain why the atomic lattice looks solid (e.g., \"Electromagnetic repulsion\").",
-    "sort_num": 16
+    "sort_num": 16,
+    "slug": "manifest-scientific-image"
   },
   {
     "number": "17",
@@ -184,7 +200,8 @@
     "ios_app": "Y",
     "detailed_description": "This is the innate talent humans possess for predicting the behavior of others by attributing beliefs and desires to them.1 It is a \"calculus\" we run effortlessly. If I see a man running toward a bus, I predict he will jump on. I don't calculate his muscle trajectories; I calculate his intent.",
     "implementation_strategy": "* Exercise: Predict the Agent. A video game where the user must predict the path of a simple geometric shape (a \"Braitenberg Vehicle\"). The shape has simple sensors (light = speed). To win, the user must adopt the \"Intentional Stance\"\u2014\"It wants to get away from the light\"\u2014even though the shape is just a machine.",
-    "sort_num": 17
+    "sort_num": 17,
+    "slug": "folk-psychology"
   },
   {
     "number": "18",
@@ -195,7 +212,8 @@
     "ios_app": "Y",
     "detailed_description": "This is Dennett's most famous tool. It is a strategy for prediction.1\n   1. The Physical Stance: Predict based on laws of physics (mass, velocity). Accurate but computationally impossible for complex things.\n   2. The Design Stance: Predict based on function (it\u2019s designed to fly). Easier.\n   3. The Intentional Stance: Predict by treating the object as if it were a rational agent with beliefs and desires. Most efficient.\nDennett argues \"belief\" is simply a state that is reliably predicted by this stance.",
     "implementation_strategy": "* Exercise: Stance Selector. The user is presented with a broken object (e.g., a car engine, a chess computer, a depressed friend). They must select the correct stance to \"Debug\" it.\n      * Car Engine: Physical/Design Stance (Good). Intentional Stance (Bad - \"The car hates me\").\n      * Chess Computer: Intentional Stance (Good - \"It wants to capture my Queen\"). Physical Stance (Bad - analyzing the silicon).",
-    "sort_num": 18
+    "sort_num": 18,
+    "slug": "the-intentional-stance"
   },
   {
     "number": "19",
@@ -206,7 +224,8 @@
     "ios_app": "Y",
     "detailed_description": "We must distinguish between the person (who feels pain) and the brain/body parts (which fire neurons).1 It is a category error (the Mereological Fallacy) to say \"My brain understands English.\" I understand English; my brain processes the signals.",
     "implementation_strategy": "* Exercise: Level Sorter. Statements appear on screen: \"Feeling betrayed,\" \"Releasing dopamine,\" \"Seeing red,\" \"V4 cortex activation.\" The user must swipe them into \"Personal Level\" or \"Sub-personal Level\" buckets.",
-    "sort_num": 19
+    "sort_num": 19,
+    "slug": "personal-sub-personal"
   },
   {
     "number": "20",
@@ -217,7 +236,8 @@
     "ios_app": "Y",
     "detailed_description": "To explain intelligence without circularity (magic), one must break the \"Smart Homunculus\" (the little man in the head) into smaller, stupider homunculi.1 These sub-agents handle specific tasks (edge detection, color). They are broken into even stupider agents, until we reach the bottom: single neurons, which are \"mindless.\" Intelligence is an emergent property of organized stupidity.",
     "implementation_strategy": "* Exercise: The Corporate Hierarchy. The user runs a \"Brain Corporation.\" They receive a complex order (\"Recognize Grandma\"). They must break this into departments (\"Face Shape,\" \"Voice Tone\"), then into sub-tasks, down to binary switches. If they try to put a \"Smart Manager\" at the bottom, the system fails.",
-    "sort_num": 20
+    "sort_num": 20,
+    "slug": "cascade-of-homunculi"
   },
   {
     "number": "21",
@@ -228,7 +248,8 @@
     "ios_app": "Y",
     "detailed_description": "Philosophers obsessed with logic hate fuzzy boundaries. Dennett embraces them. Biology is full of things that \"sorta\" exist. A virus is \"sorta\" alive. A thermostat has a \"sorta\" belief. This operator allows us to discuss gradual evolution without getting stuck on definitions.10",
     "implementation_strategy": "* Exercise: The Fuzzy Spectrum. Instead of True/False buttons, the interface uses a continuous slider. Users categorize entities (Rock, Bacteria, Dog, Human) on a \"Consciousness\" scale. The app validates any answer that respects the relative order, rejecting binary \"Yes/No\" inputs.",
-    "sort_num": 21
+    "sort_num": 21,
+    "slug": "the-sorta-operator"
   },
   {
     "number": "22",
@@ -239,7 +260,8 @@
     "ios_app": "Y",
     "detailed_description": "Dennett mocks dualists who imply that consciousness is made of a special substance\u2014\"Wonder Tissue\"\u2014that has magical properties not found in ordinary matter.4 A materialist theory must explain the mind using only neurons, chemicals, and electricity.",
     "implementation_strategy": "* Exercise: Materialist Scanner. A \"Where's Waldo\" style game using a brain diagram. The user must find the source of \"Memory.\" If they click a generic glowing orb labeled \"Soul/Memory,\" they lose. They must find the hippocampus/synaptic web.",
-    "sort_num": 22
+    "sort_num": 22,
+    "slug": "wonder-tissue"
   },
   {
     "number": "23",
@@ -250,7 +272,8 @@
     "ios_app": "Maybe",
     "detailed_description": "This thought experiment dismantles the \"Cartesian Theater.\" If you imagine yourself in a control room inside a robot's head, looking at screens, you still need eyes to see the screens. Who is looking out of those eyes? It leads to infinite regress. The brain is the control room; there is no audience inside.11",
     "implementation_strategy": "* Exercise: The Empty Chair. A VR experience. The user sits in a cockpit piloting a robot. Slowly, the cockpit controls dissolve, and the user's viewpoint merges with the sensors. The user realizes they are the machine, not the pilot.",
-    "sort_num": 23
+    "sort_num": 23,
+    "slug": "robot-control-room"
   },
   {
     "number": "24",
@@ -261,7 +284,8 @@
     "ios_app": "Y",
     "detailed_description": "Dennett lists seven demystifying facts about computers to show that \"thinking\" can be built from simple arithmetic.12\n      1. Competence without comprehension.\n      2. Numbers can represent anything.\n      3. Register machines can discriminate any pattern.\n      4. Programs are just numbers.\n      5. Universal machines exist.\n      6. Efficiency is the only difference between a supercomputer and a register machine.\n      7. There is no secret #7 (it's just engineering).",
     "implementation_strategy": "* Exercise: The Paper Computer. A simulation of a Register Machine. The user manually moves numbers between boxes (registers) following simple rules (Add 1, Subtract 1). After 50 steps, they realize they have performed a complex calculation (e.g., multiplication) without understanding math.",
-    "sort_num": 24
+    "sort_num": 24,
+    "slug": "seven-secrets-of-computer"
   },
   {
     "number": "25",
@@ -272,7 +296,8 @@
     "ios_app": "Y",
     "detailed_description": "The hardware (brain/computer) runs \"software\" (Virtual Machines). A word processor is a virtual machine; it has rules (spell check) that don't exist in the hardware (silicon).9 The human mind is a Virtual Machine running on the brain, acquired through culture (memes) and language.",
     "implementation_strategy": "* Exercise: VM Stack. Users build a \"Mind\" by layering software modules (Language, Logic, Social Norms) onto a generic \"Brain Hardware\" base. They see how changing the software changes the \"Mind\" without changing the brain.",
-    "sort_num": 25
+    "sort_num": 25,
+    "slug": "virtual-machines"
   },
   {
     "number": "26",
@@ -283,7 +308,8 @@
     "ios_app": "Y",
     "detailed_description": "An algorithm is a formal process that is (1) substrate neutral (works on silicon or neurons), (2) mindless (steps are simple), and (3) guaranteed to produce a result if followed.9 Evolution is an algorithm.",
     "implementation_strategy": "* Exercise: Algorithm Baker. A block-coding puzzle. Users arrange \"mindless\" instructions to sort a list of numbers. They witness order emerging from rote procedure.",
-    "sort_num": 26
+    "sort_num": 26,
+    "slug": "algorithms"
   },
   {
     "number": "27",
@@ -294,7 +320,8 @@
     "ios_app": "Y",
     "detailed_description": "How do you make an elevator \"smart\"? You give it logic: \"If button pressed, go to floor.\" Dennett uses this to show how \"intelligence\" creeps into machinery through simple optimization rules. The elevator \"wants\" to pick up passengers in the same way an organism \"wants\" food.9",
     "implementation_strategy": "* Exercise: Elevator Logic. Users program an elevator to minimize wait times in a busy building. They must write the logic. The app then attributes \"Intentionality\" to the elevator (\"It is trying to help the person on floor 4\"), showing the continuity between logic and agency.",
-    "sort_num": 27
+    "sort_num": 27,
+    "slug": "automating-the-elevator"
   },
   {
     "number": "28",
@@ -305,7 +332,8 @@
     "ios_app": "Y",
     "detailed_description": "A warning against assuming that because we have a word for something (\"Redhead\"), it implies a deep, scientific \"essence\".9 \"Redhead\" is a \"typographical\" category, not a fundamental law of nature. Many philosophical terms (like \"qualities\") might be similar surface-level groupings.",
     "implementation_strategy": "* Exercise: Category Buster. Users are challenged to define categories like \"Weeds\" or \"Vegetables.\" They discover these are culinary/cultural definitions, not botanical ones, paralleling how \"Mental States\" might be cultural labels.",
-    "sort_num": 28
+    "sort_num": 28,
+    "slug": "a-thing-about-redheads"
   },
   {
     "number": "29",
@@ -316,7 +344,8 @@
     "ios_app": "Y",
     "detailed_description": "A machine is designed to detect US quarters (\"two-bits\"). It works by weighing them. If we ship it to Panama, where \"balboas\" (same weight) are used, is it now a \"balboa detector\"? Dennett argues its \"meaning\" is derived from its function and context, not an intrinsic state.9 Meaning is extrinsic.",
     "implementation_strategy": "* Exercise: The Sensor Simulation. Users design a sensor for \"Apples.\" They then place it in a world with \"Fake Plastic Apples.\" The sensor triggers. The user must decide: \"Is the sensor wrong, or has its meaning changed?\"",
-    "sort_num": 29
+    "sort_num": 29,
+    "slug": "wandering-two-bitser"
   },
   {
     "number": "30",
@@ -327,7 +356,8 @@
     "ios_app": "Y",
     "detailed_description": "From Quine: If a linguist sees a native point at a rabbit and say \"Gavagai,\" it could mean \"Rabbit,\" \"Food,\" \"Undetached rabbit part,\" or \"Rabbit moment.\" We can never know for sure. Meaning is a \"crossword puzzle\" of interlocking clues, not a lookup table.9",
     "implementation_strategy": "* Exercise: Alien Linguist. The user hears an alien word in various contexts. They must assign a meaning. The app reveals that multiple meanings fit the data perfectly, proving indeterminacy.",
-    "sort_num": 30
+    "sort_num": 30,
+    "slug": "radical-translation"
   },
   {
     "number": "31",
@@ -338,7 +368,8 @@
     "ios_app": "Y",
     "detailed_description": "The brain is a Syntactic Engine (it processes physical signals/shapes) that mimics a Semantic Engine (a machine that understands meaning). Evolution has designed the syntax (neural firings) to track semantics (truth) so well that we can't tell the difference.9",
     "implementation_strategy": "* Exercise: The Symbol Matcher. Users play a game matching shapes. They don't know what the shapes mean. At the end, the app reveals they have successfully translated a sentence. Syntax did the work of Semantics.",
-    "sort_num": 31
+    "sort_num": 31,
+    "slug": "semantic-syntactic-engines"
   },
   {
     "number": "32",
@@ -349,7 +380,8 @@
     "ios_app": "Y",
     "detailed_description": "A critique of the \"Swampman\" thought experiment. If lightning strikes a log and creates a perfect copy of you, does it have your memories? Dennett says \"Sorta.\" It has the data, but it has no history. Meaning is rooted in history (evolution/learning). A fake masterpiece is indistinguishable from a real one physically, but its value (meaning) is different due to history.9",
     "implementation_strategy": "* Exercise: Origin Story. Users interact with two identical items: a \"Diamond\" and a \"Lab-Grown Diamond.\" They look the same. The game asks them to value them. It highlights that \"Provenance\" is part of the identity.",
-    "sort_num": 32
+    "sort_num": 32,
+    "slug": "swampman"
   },
   {
     "number": "33",
@@ -360,7 +392,8 @@
     "ios_app": "Y",
     "detailed_description": "We have two boxes. Box A works via wires and transistors. Box B works via a tiny homunculus inside. If they behave identically, the Intentional Stance treats them as the same. The internal mechanism is irrelevant to the status of \"believer\" or \"thinker\" in a functional sense.9",
     "implementation_strategy": "* Exercise: The Turing Test. Users chat with two agents. One is AI, one is Human. If they can't tell which is which, the app awards both the \"Mind\" badge, reinforcing functionalism.",
-    "sort_num": 33
+    "sort_num": 33,
+    "slug": "two-black-boxes"
   },
   {
     "number": "34",
@@ -371,7 +404,8 @@
     "ios_app": "Y",
     "detailed_description": "Darwin\u2019s idea is a \"universal acid\" that cannot be contained. It eats through the \"cosmic pyramid\" (God -> Mind -> Matter) and inverts it (Matter -> Evolution -> Mind). It implies that Design does not require a Designer.13",
     "implementation_strategy": "* Exercise: Acid Spill. A strategy simulation. The user introduces \"Selection Pressure\" to different systems: A bird population, a business market, a fashion trend. They watch as the systems spontaneously optimize, demonstrating the universality of the algorithm.",
-    "sort_num": 34
+    "sort_num": 34,
+    "slug": "universal-acid"
   },
   {
     "number": "35",
@@ -382,7 +416,8 @@
     "ios_app": "Y",
     "detailed_description": "The set of all possible genomes is \"Vast\" (hyper-astronomical). The set of actual living things is \"Vanishing\" (tiny). Evolution is a search algorithm that finds the rare islands of viability in a sea of lethal nonsense.2",
     "implementation_strategy": "* Exercise: The Library Search. A visualization of infinite books (gibberish). The user acts as \"Natural Selection,\" applying filters to find the one readable book (viable organism).",
-    "sort_num": 35
+    "sort_num": 35,
+    "slug": "library-of-mendel"
   },
   {
     "number": "36",
@@ -393,7 +428,8 @@
     "ios_app": "Y",
     "detailed_description": "Genes are not passive blueprints (words); they are active recipes (subroutines). A gene is a command: \"Make this protein now\".2",
     "implementation_strategy": "* Exercise: DNA Coder. Users write simple \"If/Then\" code to grow a plant. They see how a small change in the \"Loop\" instruction creates a huge change in the plant's size (Phenotype).",
-    "sort_num": 36
+    "sort_num": 36,
+    "slug": "genes-as-subroutines"
   },
   {
     "number": "37",
@@ -404,7 +440,8 @@
     "ios_app": "Y",
     "detailed_description": "The concept that all life shares a single origin. A tool to visualize deep time and connectedness.2",
     "implementation_strategy": "* Exercise: Deep Zoom. An interactive fractal tree. Users start at \"Self\" and zoom out to parents, tribes, species, mammals, vertebrates, finally reaching the single root.",
-    "sort_num": 37
+    "sort_num": 37,
+    "slug": "tree-of-life"
   },
   {
     "number": "38",
@@ -415,7 +452,8 @@
     "ios_app": "Y",
     "detailed_description": "A crucial metaphor.\n      * Skyhook: A miraculous explanation that \"lifts\" design from nowhere (God, Aliens, Spontaneous Order). Evolution forbids these.\n      * Crane: A mechanical structure built on a solid foundation that lifts things. Natural Selection is a crane. It builds \"sub-cranes\" (Sex, Culture) to lift faster.1",
     "implementation_strategy": "* Exercise: The Tower Builder. Users must build a tower. They have \"Cranes\" (slow, resource-heavy) and \"Skyhooks\" (magic hooks). If they use a Skyhook, the level is disqualified. They must learn to build from the bottom up.",
-    "sort_num": 38
+    "sort_num": 38,
+    "slug": "cranes-and-skyhooks"
   },
   {
     "number": "39",
@@ -426,7 +464,8 @@
     "ios_app": "Y",
     "detailed_description": "The \"Strange Inversion of Reasoning.\" We used to think you needed a Mind to create a Design. Darwin showed you don't. Termites build cathedrals without knowing what a cathedral is. Competence (doing it) precedes Comprehension (knowing why).2",
     "implementation_strategy": "* Exercise: The Termite Simulation. Users set simple rules for dots (\"Drop pheromone\"). They watch complex structures emerge. They realize the dots have zero understanding.",
-    "sort_num": 39
+    "sort_num": 39,
+    "slug": "competence-w-o-comprehension"
   },
   {
     "number": "40",
@@ -437,7 +476,8 @@
     "ios_app": "Y",
     "detailed_description": "Reasons that exist in the world without being represented in a brain. The gazelle stots (jumps) to warn the lion. The gazelle doesn't know this rationale. The rationale is \"free-floating\" in the evolutionary logic.2",
     "implementation_strategy": "* Exercise: Logic Detective. Users observe animal behaviors. They must match the behavior to the \"Evolutionary Reason\" (e.g., \"maximize gene spread\") and contrast it with the \"Animal's Thought\" (e.g., \"I'm hungry\").",
-    "sort_num": 40
+    "sort_num": 40,
+    "slug": "free-floating-rationales"
   },
   {
     "number": "41",
@@ -448,7 +488,8 @@
     "ios_app": "Y",
     "detailed_description": "Cicadas emerge in prime-numbered years (13, 17) to minimize synchronization with predator cycles. They don't know math. Evolution \"discovered\" the prime number property. This is competence without comprehension.1",
     "implementation_strategy": "* Exercise: Predator Cycle. A math sim. Users set life cycles for Prey and Predators. If they pick non-primes (12), the \"Predator (4-year cycle)\" eats them every 12 years. If they pick Primes (13), they rarely overlap.",
-    "sort_num": 41
+    "sort_num": 41,
+    "slug": "locusts-and-primes"
   },
   {
     "number": "42",
@@ -459,7 +500,8 @@
     "ios_app": "Y",
     "detailed_description": "An application of Costly Signaling Theory. Stotting works because it is hard to fake. It proves the gazelle is fit. Evolution ensures honesty through cost.1",
     "implementation_strategy": "* Exercise: Bluff Master. A multiplayer game. Players can \"signal\" strength. If the signal is cheap, everyone bluffs. If the signal costs \"Health,\" only the strong do it.",
-    "sort_num": 42
+    "sort_num": 42,
+    "slug": "how-to-explain-stotting"
   },
   {
     "number": "43",
@@ -470,7 +512,8 @@
     "ios_app": "Y",
     "detailed_description": "There was no \"First Mammal.\" Evolution is gradual. Every child belongs to the same species as its parent. The category \"Mammal\" is a retrospective boundary we draw on a continuous process.1",
     "implementation_strategy": "* Exercise: The Morph. A morphing animation from Reptile to Mammal. The user is challenged to click \"Stop\" at the exact frame the species changes. They fail, proving the boundary is arbitrary.",
-    "sort_num": 43
+    "sort_num": 43,
+    "slug": "prime-mammal"
   },
   {
     "number": "44",
@@ -481,7 +524,8 @@
     "ios_app": "Y",
     "detailed_description": "Speciation is not an event; it's a process. Two groups drift apart. Are they different species? You can't know until you try to breed them later. It is a \"retrospective\" judgment.9",
     "implementation_strategy": "* Exercise: Drift Sim. Users separate a population of birds on two islands. They mutate over time. The user guesses \"Species Status.\" The app reveals the answer based on genetic distance.",
-    "sort_num": 44
+    "sort_num": 44,
+    "slug": "when-does-speciation-occur"
   },
   {
     "number": "45",
@@ -492,7 +536,8 @@
     "ios_app": "Y",
     "detailed_description": "\"Mitochondrial Eve\" is a title determined by the extinction of other lineages, not by being the \"first\" woman. It is a retrospective coronation. A \"Widowmaker\" is a gene that is fatal if not paired correctly, shaping lineages.1",
     "implementation_strategy": "* Exercise: Lineage Battle Royale. Users view a graph of lineages. As generations pass, lines die out. The last remaining line is crowned \"Eve.\"",
-    "sort_num": 45
+    "sort_num": 45,
+    "slug": "mitochondrial-eve"
   },
   {
     "number": "46",
@@ -503,7 +548,8 @@
     "ios_app": "Y",
     "detailed_description": "Cycles (days, seasons) provide the \"do-over\" capability for algorithms to test and refine designs.9",
     "implementation_strategy": "* Exercise: Seasonal Survival. Users design a creature. It faces a recurring loop of Summer/Winter. It must survive the cycle, not just a moment.",
-    "sort_num": 46
+    "sort_num": 46,
+    "slug": "cycles"
   },
   {
     "number": "47",
@@ -514,7 +560,8 @@
     "ios_app": "Y",
     "detailed_description": "The frog eye is wired to detect \"small moving dark spots.\" In the swamp, that means \"Fly.\" In the lab, it means \"Lead pellet.\" Meaning is environmentally dependent.1",
     "implementation_strategy": "* Exercise: Bio-Hacker. Users fool a frog simulation by feeding it BB pellets that match the \"Fly\" visual signature. Shows the rigidity of biological semantic engines.",
-    "sort_num": 47
+    "sort_num": 47,
+    "slug": "frog-s-eye"
   },
   {
     "number": "48",
@@ -525,7 +572,8 @@
     "ios_app": "Y",
     "detailed_description": "Evolution explores \"Design Space.\" When a good trick (e.g., the eye) is found, it \"leaps\" to other lineages (convergent evolution).9",
     "implementation_strategy": "* Exercise: Design Library. Users unlock \"Modules\" (Wings, Eyes). They can paste them onto different creatures to solve different environmental puzzles.",
-    "sort_num": 48
+    "sort_num": 48,
+    "slug": "library-of-babel"
   },
   {
     "number": "49",
@@ -536,7 +584,8 @@
     "ios_app": "Y",
     "detailed_description": "If a random generator produces Hamlet (Spamlet), is it art? No. It lacks the intentional history of Shakespeare. Authorship requires a causal chain of intent.9",
     "implementation_strategy": "* Exercise: The Random Poet. Users click a button to generate text. If it makes sense, they try to copyright it. The app conducts a \"court case\" on authorship.",
-    "sort_num": 49
+    "sort_num": 49,
+    "slug": "author-of-spamlet"
   },
   {
     "number": "50",
@@ -547,7 +596,8 @@
     "ios_app": "Y",
     "detailed_description": "A thought experiment on determinism. A \"Virtual Hotel\" has infinite rooms. Even if filled with \"random\" guests, patterns emerge. Pseudo-randomness (computer random) is functionally identical to \"real\" randomness for any observer within the system.1",
     "implementation_strategy": "* Exercise: Noise Decoder. Users try to predict the next number in a sequence. It looks random. It is actually a deterministic algorithm (PRNG).",
-    "sort_num": 50
+    "sort_num": 50,
+    "slug": "noise-in-virtual-hotel"
   },
   {
     "number": "51",
@@ -558,7 +608,8 @@
     "ios_app": "Y",
     "detailed_description": "A lesson in the complexity of genetics. Herb and Alice try to engineer a baby (Hal) by selecting genes. But genes have multiple effects (Pleiotropy). Selecting for \"Smart\" might cause \"Frail.\" Top-down design is harder than bottom-up selection.9",
     "implementation_strategy": "* Exercise: Character Creator. RPG style. Users max out stats. The game applies hidden \"Side Effects.\" Max Strength = Low Agility.",
-    "sort_num": 51
+    "sort_num": 51,
+    "slug": "herb-alice-hal"
   },
   {
     "number": "52",
@@ -569,7 +620,8 @@
     "ios_app": "Y",
     "detailed_description": "Ideas that replicate like genes. They undergo natural selection. Religion, songs, and fashion are memes.1",
     "implementation_strategy": "* Exercise: Viral Lab. Users create a \"Meme\" with attributes (Catchiness, Utility, Truth). They release it. \"Catchiness\" beats \"Truth\" in the simulation.",
-    "sort_num": 52
+    "sort_num": 52,
+    "slug": "memes"
   },
   {
     "number": "53",
@@ -580,7 +632,8 @@
     "ios_app": "Y",
     "detailed_description": "Dennett opposes the \"Cartesian Theater\" (a central place where consciousness happens) with the \"Multiple Drafts Model\" (Fame in the Brain). Consciousness is the \"echo\" of neural processes winning a competition for attention.2",
     "implementation_strategy": "* Exercise: The Newsroom. Users play as an Editor. Stories (sensory data) rush in. There is no \"Publisher.\" The stories just compete. The one that gets the most clicks (neural activation) becomes \"The News\" (Consciousness).",
-    "sort_num": 53
+    "sort_num": 53,
+    "slug": "two-counter-images"
   },
   {
     "number": "54",
@@ -591,7 +644,8 @@
     "ios_app": "Y",
     "detailed_description": "The intuition that a \"Zombie\" (physical duplicate of a human but without consciousness) is possible. Dennett argues this is a false intuition based on imagining \"lights on\" vs \"lights off\" without understanding the wiring.2",
     "implementation_strategy": "* Exercise: Zombie Builder. Users verify functions of a robot. \"Does it see?\" Yes. \"Does it feel?\" Yes. \"Is it conscious?\" If they say No, the app asks \"Why?\" forcing them to confront the lack of a reason.",
-    "sort_num": 54
+    "sort_num": 54,
+    "slug": "the-zombic-hunch"
   },
   {
     "number": "55",
@@ -602,7 +656,8 @@
     "ios_app": "Y",
     "detailed_description": "A \"Zimbo\" is a Zombie that has a higher-order belief that it is conscious. It says \"I think therefore I am.\" Dennett argues we are Zimboes. There is no difference between thinking you are conscious and being conscious.2",
     "implementation_strategy": "* Exercise: Turing's Nightmare. A dialogue tree with a Zimbo. It claims to feel pain. The user must find a logical test to prove it is lying. (Spoiler: They can't).",
-    "sort_num": 55
+    "sort_num": 55,
+    "slug": "zombies-and-zimboes"
   },
   {
     "number": "56",
@@ -613,7 +668,8 @@
     "ios_app": "Y",
     "detailed_description": "\"I used to hate cauliflower, now I love it.\" Did the flavor change (Qualia) or did your judgment change? Dennett argues \"Qualia\" is a useless term. Only the judgment (reaction) is real.2",
     "implementation_strategy": "* Exercise: Flavor Graph. Users map their taste preferences over time. They see that \"Taste\" is just a variable in a preference function.",
-    "sort_num": 56
+    "sort_num": 56,
+    "slug": "curse-of-cauliflower"
   },
   {
     "number": "57",
@@ -624,7 +680,8 @@
     "ios_app": "Y",
     "detailed_description": "\"Vim\" is a made-up currency in a game. Asking \"How much is Vim worth in real money?\" is a category error. Asking \"What is pain worth in physics?\" is the same error. Qualia is the user-interface currency of the brain.2",
     "implementation_strategy": "* Exercise: Exchange Rate. Users play a game with \"Points.\" They try to cash out points for \"Real World\" items. The app denies it. Points only have value in the game.",
-    "sort_num": 57
+    "sort_num": 57,
+    "slug": "vim-real-money"
   },
   {
     "number": "58",
@@ -635,7 +692,8 @@
     "ios_app": "Y",
     "detailed_description": "Capgras delusion (seeing a loved one as an imposter) shows that \"Recognition\" has two cables: Image and Emotion. If the Emotion cable is cut, the Image looks right but feels wrong. Consciousness is modular.2",
     "implementation_strategy": "* Exercise: Circuit Breaker. Users manipulate a schematic of the brain. Cutting the \"Limbic\" wire causes the character to report \"That looks like Mom, but it's a stranger.\"",
-    "sort_num": 58
+    "sort_num": 58,
+    "slug": "mr-clapgras"
   },
   {
     "number": "59",
@@ -646,7 +704,8 @@
     "ios_app": "Y",
     "detailed_description": "A magic trick where the deck is \"tuned\" to force a card choice. The brain \"tunes the deck\" of our choices before we are aware, giving us the illusion of unprimed free choice.2",
     "implementation_strategy": "* Exercise: Pick a Card. The app forces a card choice via subtle visual cues. It then reveals the manipulation, showing how \"Free Choice\" was chemically primed.",
-    "sort_num": 59
+    "sort_num": 59,
+    "slug": "the-tuned-deck"
   },
   {
     "number": "60",
@@ -657,7 +716,8 @@
     "ios_app": "Y",
     "detailed_description": "Searle\u2019s argument against AI. Dennett\u2019s \"Systems Reply\": The man doesn't understand Chinese, but the Room (Man + Book + Paper) does. Dennett creates an intuition pump by speeding up the room until it converses fluently.14",
     "implementation_strategy": "* Exercise: System Speed. Users operate the room slowly (boring). Then they crank a \"Speed Dial.\" The output becomes a blur of fluent conversation. The intuition shifts from the \"Man\" to the \"System.\"",
-    "sort_num": 60
+    "sort_num": 60,
+    "slug": "the-chinese-room"
   },
   {
     "number": "61",
@@ -668,7 +728,8 @@
     "ios_app": "Y",
     "detailed_description": "If you teleport (copy/destroy) from Mars to Earth, is it you? Dennett argues survival is about the preservation of information/psychology, not atoms. If the info is preserved, you survive.14",
     "implementation_strategy": "* Exercise: Teleport Dilemma. Users must teleport to win. Sometimes the \"Destroy\" phase fails, leaving two copies. The user controls both. Which is \"You\"?",
-    "sort_num": 61
+    "sort_num": 61,
+    "slug": "teleclone-fall"
   },
   {
     "number": "62",
@@ -679,7 +740,8 @@
     "ios_app": "Y",
     "detailed_description": "The Self is not a thing (like a pearl); it is an abstraction (like the Center of Gravity). It is the center of the story we tell about ourselves.14",
     "implementation_strategy": "* Exercise: Find the Center. Users balance a weird shape. They find the Center of Gravity. It is a point in empty space. It explains the object's movement but doesn't physically exist.",
-    "sort_num": 62
+    "sort_num": 62,
+    "slug": "narrative-gravity"
   },
   {
     "number": "63",
@@ -690,7 +752,8 @@
     "ios_app": "Y",
     "detailed_description": "We study consciousness by treating subjects' reports as \"text\" (fiction), not as absolute truth. We analyze the story they tell, not the \"feelings\" they claim to have.14",
     "implementation_strategy": "* Exercise: The Detective. Users interview a subject reporting \"Voices.\" The user maps the text to \"Auditory Cortex Misfire\" rather than \"Ghosts.\"",
-    "sort_num": 63
+    "sort_num": 63,
+    "slug": "heterophenomenology"
   },
   {
     "number": "64",
@@ -701,7 +764,8 @@
     "ios_app": "Y",
     "detailed_description": "Mary knows everything physical about Red but has never seen it. Dennett argues if she really knew everything (causal reactions), seeing Red would be no surprise. We fail to imagine \"knowing everything\".14",
     "implementation_strategy": "* Exercise: Total Knowledge. Users train a bot with \"All Data\" about a stimulus. When the stimulus appears, the bot predicts it perfectly.",
-    "sort_num": 64
+    "sort_num": 64,
+    "slug": "mary-the-color-scientist"
   },
   {
     "number": "65",
@@ -712,7 +776,8 @@
     "ios_app": "Y",
     "detailed_description": "A surgeon controls you but aligns his control with your desires. You are \"free\" because you are doing what you want. Coercion (doing what you don't want) is the enemy of freedom, not determinism.14",
     "implementation_strategy": "* Exercise: Puppet Alignment. Users control a puppet. If the puppet \"wants\" Left and User presses Left, the puppet is happy (Free).",
-    "sort_num": 65
+    "sort_num": 65,
+    "slug": "nefarious-neurosurgeon"
   },
   {
     "number": "66",
@@ -723,7 +788,8 @@
     "ios_app": "Y",
     "detailed_description": "Simple deterministic rules create \"Gliders\" that avoid obstacles. \"Avoidance\" is possible in a deterministic universe.14",
     "implementation_strategy": "* Exercise: Glider Gun. Users build Life patterns. They see structures that \"act\" agentic despite being grid cells.",
-    "sort_num": 66
+    "sort_num": 66,
+    "slug": "game-of-life"
   },
   {
     "number": "67",
@@ -734,7 +800,8 @@
     "ios_app": "Y",
     "detailed_description": "To win, you must be unpredictable. Creatures evolve pseudo-randomness to evade predators. This \"unpredictability\" is the \"elbow room\" of free will.14",
     "implementation_strategy": "* Exercise: RPS Dojo. Users train to be \"random\" against a pattern-matching AI.",
-    "sort_num": 67
+    "sort_num": 67,
+    "slug": "rock-paper-scissors"
   },
   {
     "number": "68",
@@ -745,7 +812,8 @@
     "ios_app": "Y",
     "detailed_description": "Winning a lottery drawn before you bought the ticket vs. after. The odds are the same. Determinism (pre-drawn future) doesn't make your choice meaningless.2",
     "implementation_strategy": "* Exercise: Luck Test. Users play both lotteries. The \"Fun\" is the same. The \"Result\" is the same.",
-    "sort_num": 68
+    "sort_num": 68,
+    "slug": "two-lotteries"
   },
   {
     "number": "69",
@@ -756,7 +824,8 @@
     "ios_app": "Y",
     "detailed_description": "You can't change the past. But the future is not \"Inert\" like the past. It is responsive to your actions. \"Inevitability\" is a misuse of determinism.2",
     "implementation_strategy": "* Exercise: Dodgeball. A ball is thrown (determined path). The user Ducks. The future changed.",
-    "sort_num": 69
+    "sort_num": 69,
+    "slug": "inert-historical-facts"
   },
   {
     "number": "70",
@@ -767,7 +836,8 @@
     "ios_app": "Y",
     "detailed_description": "A chess computer is deterministic but \"chooses\" moves by evaluating futures. This deliberation is free will.2",
     "implementation_strategy": "* Exercise: Engine Mind. Watch a chess engine evaluate trees. See it \"change its mind.\"",
-    "sort_num": 70
+    "sort_num": 70,
+    "slug": "chess-marathon"
   },
   {
     "number": "71",
@@ -778,7 +848,8 @@
     "ios_app": "Y",
     "detailed_description": "The fallacy that we must be the \"First Cause\" (God) to be responsible. We just need to be competent local causes.14",
     "implementation_strategy": "* Exercise: Blame Game. A chain of events. Users identify the \"Responsible\" link (the one that could have changed the outcome).",
-    "sort_num": 71
+    "sort_num": 71,
+    "slug": "ultimate-responsibility"
   },
   {
     "number": "72",
@@ -789,7 +860,8 @@
     "ios_app": "Y",
     "detailed_description": "The Wasp (Sphex) is trapped in a loop. It lacks free will because it cannot reflect on its program. We have free will because we can \"Go Meta\" and change our loops.14",
     "implementation_strategy": "* Exercise: Loop Escape. Users are stuck in a repetitive game. They must find the \"Pause/Menu\" button to win.",
-    "sort_num": 72
+    "sort_num": 72,
+    "slug": "sphexishness"
   },
   {
     "number": "73",
@@ -800,7 +872,8 @@
     "ios_app": "Y",
     "detailed_description": "Cloning Hitler won't create Hitler. Environment matters. Genetic determinism is false.14",
     "implementation_strategy": "* Exercise: Nurture Sim. Clone a \"Dictator.\" Raise him as a \"Baker.\" He becomes a Baker.",
-    "sort_num": 73
+    "sort_num": 73,
+    "slug": "boys-from-brazil"
   },
   {
     "number": "74",
@@ -811,7 +884,8 @@
     "ios_app": "Y",
     "detailed_description": "Academics trade clarity for \"Tenure\" (obscurity). Don't do it. Be clear.2",
     "implementation_strategy": "* Exercise: De-Jargonizer. Translate academic text into plain English for points.",
-    "sort_num": 74
+    "sort_num": 74,
+    "slug": "faustian-bargain"
   },
   {
     "number": "75",
@@ -822,7 +896,8 @@
     "ios_app": "Y",
     "detailed_description": "Philosophers study their own intuitions and think they are universal truths. They are just one data point.2",
     "implementation_strategy": "* Exercise: Sample Size One. Users answer a survey. Then see global results. They are often outliers.",
-    "sort_num": 75
+    "sort_num": 75,
+    "slug": "naive-auto-anthropology"
   },
   {
     "number": "76",
@@ -833,7 +908,8 @@
     "ios_app": "Y",
     "detailed_description": "\"Chmess\" is a chess variant (King moves 2 squares). It has infinite truths. But it is worth nothing. Don't waste your life on \"Chmess\" (irrelevant philosophy).2",
     "implementation_strategy": "* Exercise: The Pointless Game. A complex game with no reward. The winning move is to \"Quit.\"",
-    "sort_num": 76
+    "sort_num": 76,
+    "slug": "truths-of-chmess"
   },
   {
     "number": "77",
@@ -844,6 +920,7 @@
     "ios_app": "Y",
     "detailed_description": "Sturgeon's law revisited. Focus on the 10% of philosophy that matters. Ignore the crud.2",
     "implementation_strategy": "* Exercise: The Hall of Fame. A review mode where users pin their favorite tools.",
-    "sort_num": 77
+    "sort_num": 77,
+    "slug": "the-10-percent-good"
   }
 ]

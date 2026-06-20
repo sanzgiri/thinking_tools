@@ -31,3 +31,7 @@ Building an app around "Herb, Alice, Hal" could provide a fun and engaging way t
 5. **Leaderboards and Achievements**: Incorporate competitive elements like leaderboards and achievements to motivate users to continue learning and thinking deeply about genetic trade-offs.
 
 By gamifying the concept of "Herb, Alice, Hal," this app would make it accessible and enjoyable for people to explore the intricacies of genetics and better understand the limitations of top-down design in engineering complex systems.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

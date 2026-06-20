@@ -32,3 +32,7 @@ An app based on the Cycles thinking tool could be designed to help users practic
 5. A community feature where users can share their creations, discuss strategies, and learn from one another's experiences.
 
 By making the concept of Cycles engaging and accessible through an app, users will not only develop a deeper understanding of this powerful thinking tool but also gain valuable skills in problem-solving, critical thinking, and adaptation to changing circumstances.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

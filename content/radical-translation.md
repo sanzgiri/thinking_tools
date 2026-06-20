@@ -30,3 +30,7 @@ A Radical Translation app could be designed to simulate the experience of learni
 5. Machine learning capabilities to adapt to user's understanding and suggest new words or phrases based on their progress.
 
 By gamifying the concept of Radical Translation, this app would not only help users improve their language skills but also deepen their understanding of the complexities of meaning in human communication.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

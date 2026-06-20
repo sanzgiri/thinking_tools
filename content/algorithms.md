@@ -27,3 +27,7 @@ Creating an app based on the "Algorithm Baker" exercise would provide an interac
 5. **Feedback and Analytics**: Offer feedback on users' performance, including the time it took them to complete a task, the algorithm they used, and suggestions for improvement. Analytics can help track user progress and personalize the learning experience.
 6. **Community Features**: Include community features like leaderboards, achievements, or discussion boards to foster friendly competition and collaboration among users. This would motivate users to continue learning and practicing algorithms while also providing opportunities for peer support and learning.
 7. **Educational Resources**: Offer resources such as explanations of the algorithms, their history, and how they are used in real-world applications. These resources would help users deepen their understanding of algorithms and their importance in various fields.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

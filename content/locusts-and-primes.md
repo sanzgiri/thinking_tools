@@ -28,3 +28,7 @@ An app based on the "Locusts and Primes" thinking tool could offer a fun, intera
 3. An option for users to manipulate environmental factors like food availability, climate, or predator behaviors to observe how these changes affect the Prey and Predator populations.
 4. Gamification elements such as earning points for discovering prime cycles that maximize prey survival, unlocking new species, or competing with friends on leaderboards.
 5. Resources providing additional information about prime numbers, evolution, and their interplay in ecosystems to further deepen users' understanding of the concept.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

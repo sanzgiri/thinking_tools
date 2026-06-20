@@ -15,10 +15,17 @@ export interface Tool {
     slug: string;
 }
 
+// Fallback slugify, kept in sync with slugify.py. Prefer the `slug` field
+// baked into tools.json by process_dennet.py; this is only used if an older
+// data file without that field is encountered.
+export function slugify(text: string): string {
+    return text.toLowerCase().replace(/[\W_]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
 export function getTools(): Tool[] {
     return toolsData.map((tool: any) => ({
         ...tool,
-        slug: tool.name.toLowerCase().replace(/[\W_]+/g, '-').replace(/^-+|-+$/g, ''),
+        slug: tool.slug ?? slugify(tool.name),
     }));
 }
 

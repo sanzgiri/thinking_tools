@@ -17,3 +17,7 @@ To make this exercise more engaging, one can create a family tree and trace thei
 To gamify the Mitochondrial Eve concept, one could create an interactive app that allows users to simulate and visualize various evolutionary scenarios. The app would feature a graph-based interface where users can create their own lineages by introducing different genes with varying degrees of compatibility. As generations pass, lines die out, and the last surviving line is crowned "Eve."
 
 Additional features could include historical events that affect the survival of certain lineages, educational resources about Mitochondrial Eve and its importance in understanding human evolution, and opportunities for users to share their simulated scenarios with others. By making the concept engaging and interactive, this app would not only help users better understand evolutionary biology but also foster a deeper appreciation for our collective history and the delicate balance that has shaped it.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

@@ -27,3 +27,7 @@ To create an engaging app based on Reductio ad Absurdum, consider the following 
 4. Gamification elements like points, badges, and leaderboards to encourage continuous learning and practice.
 5. A community feature allowing users to share their discoveries, discuss ideas, and collaborate on finding new absurdities together.
 6. Integration with external resources to provide context and additional information about the arguments being scrutinized.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

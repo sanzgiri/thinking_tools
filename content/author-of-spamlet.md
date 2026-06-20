@@ -29,3 +29,7 @@ The app could include features like:
 5. Progress tracking for users to see their growth in understanding and appreciating the importance of intent in art
 
 By making this exercise fun and interactive, "Artful Intent" can help users deepen their appreciation for the role of intent in creating meaningful and impactful art.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

@@ -21,3 +21,7 @@ An app based on Dennett's "Murder in Trafalgar Square" could provide an interact
 The app might feature a variety of scenarios, each representing different types of events (e.g., accidents, crimes, acts of heroism) and presenting users with various perspectives (e.g., eyewitnesses, investigators, participants). Users would earn points based on the accuracy and efficiency of their reconstructions, with additional challenges and unlockable content to encourage continued practice and exploration.
 
 By gamifying this thinking tool, the app would not only make complex philosophical concepts more accessible but also foster critical thinking skills essential for navigating our information-saturated world.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

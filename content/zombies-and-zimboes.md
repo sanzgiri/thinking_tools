@@ -28,3 +28,7 @@ An app based on the Zombies and Zimboes concept could be designed to gamify the 
 4. **Artificial Intelligence Integration**: Develop AI agents that can simulate Zimbo behavior and engage in conversations with users. This would provide a more interactive and immersive experience while challenging users to think critically about consciousness.
 5. **Challenges and Quizzes**: Implement challenges and quizzes based on the app's content to reinforce learning and retention of the concepts discussed.
 6. **Community Building**: Encourage collaboration and community building by rewarding active participation, fostering a sense of belonging for users who engage with the app and its philosophical discussions.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

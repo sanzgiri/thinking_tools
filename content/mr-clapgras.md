@@ -27,3 +27,7 @@ Creating an interactive app based on Mr. Capgras could make this complex philoso
 5. A social component allowing users to share their experiences, collaborate on scenarios, and discuss the implications of Mr. Capgras with others.
 
 By offering an immersive, interactive experience, such an app could help users gain a deeper understanding of the intricate workings of their own minds while also fostering curiosity and critical thinking.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

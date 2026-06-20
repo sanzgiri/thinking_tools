@@ -30,3 +30,8 @@ The base exercise idea can be expanded into an engaging app experience. The app 
 3. Sentiment and Semantic Analysis: An NLP (Natural Language Processing) algorithm evaluates users' summaries of the opponent's argument to ensure they are accurate, charitable, and follow the rules. If the summary is derogatory, inaccurate, or dismissive, the user will receive feedback and be asked to try again.
 4. Scoring System: Users earn points for successfully applying Rapoport's Rules and engaging in productive discussions. The scoring system encourages users to practice these thinking tools effectively and fosters a competitive yet collaborative environment.
 5. Leaderboard: A leaderboard showcases the top users, promoting friendly competition and inspiring users to improve their critical thinking skills and engagement in constructive discourse.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking | Summary, Quotes, FAQ, Audio - SoBrief, accessed November 28, 2025](https://sobrief.com/books/intuition-pumps-and-other-tools-for-thinking)
+- [Daniel Dennett: Tools for Critical Thinking - Farnam Street, accessed November 28, 2025](https://fs.blog/daniel-dennett-critical-thinking/)

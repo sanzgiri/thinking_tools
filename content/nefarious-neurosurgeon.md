@@ -25,3 +25,7 @@ An app based on the Nefarious Neurosurgeon could be designed as an interactive g
 2. Players control the actions that influence the puppet's environment, which in turn affects the puppet's desires. For example, if the player chooses to make it rain, the puppet might want an umbrella.
 3. The app would score players based on their ability to align their actions with the puppet's desires, thus creating a sense of freedom for the puppet (and hence a higher score).
 4. To gamify the concept further, the app could introduce obstacles and challenges that require strategic thinking to satisfy the puppet's desires. This would help users understand the nuances of Dennett's philosophy in a fun and interactive way.
+
+
+## References
+- [Intuition Pumps and Other Tools For Thinking | PDF - Scribd, accessed November 28, 2025](https://www.scribd.com/document/845025919/Intuition-Pumps-and-Other-Tools-for-Thinking)

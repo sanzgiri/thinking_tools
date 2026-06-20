@@ -32,3 +32,7 @@ The "Base App Idea" presented in Dennett's book could be expanded into a useful 
 6. Finally, the app could include features that help users reflect on their own beliefs and biases, such as journaling prompts or guided reflections.
 
 By gamifying the concept of rhetorical questions, this app could help users develop critical thinking skills and challenge their own assumptions. It could also provide a valuable resource for teachers and students seeking to engage with complex issues in a thoughtful and constructive manner.
+
+
+## References
+- [Intuition Pumps by Daniel C. Dennett | Issue 101 | Philosophy Now, accessed November 28, 2025](https://philosophynow.org/issues/101/Intuition_Pumps_by_Daniel_C_Dennett)

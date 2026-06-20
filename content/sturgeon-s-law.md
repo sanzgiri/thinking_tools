@@ -29,3 +29,7 @@ An engaging app based on Sturgeon's Law could be designed as follows:
 * **Community Engagement**: Users can discuss their findings within a community forum, allowing for collaboration and the sharing of insights.
 
 By gamifying Sturgeon's Law, this app encourages users to develop critical thinking skills, challenge their biases, and explore various fields beyond their preconceived notions.
+
+
+## References
+- [Daniel Dennett: Tools for Critical Thinking - Farnam Street, accessed November 28, 2025](https://fs.blog/daniel-dennett-critical-thinking/)

@@ -19,3 +19,7 @@ A potential app based on this concept could be called "RoboMind". The app would 
 To gamify the experience, the app could include challenges that gradually remove visual cues, forcing users to rely more on their bodily sensations and proprioception. As users progress, they might unlock new levels representing increasingly complex tasks or environments. Additionally, the app could provide educational content about consciousness, selfhood, and the brain's role in creating our subjective experiences.
 
 By offering engaging and interactive experiences, RoboMind aims to help users challenge their assumptions, deepen their understanding of themselves, and develop a more integrated perspective on mind and body.
+
+
+## References
+- [Daniel C Dennett Consciousness Explained - sga.profnit.org.br, accessed November 28, 2025](https://sga.profnit.org.br/index.jsp/form-library/3fjVEk/Daniel-C-Dennett-Consciousness-Explained.pdf)

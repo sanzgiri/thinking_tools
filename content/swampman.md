@@ -17,3 +17,7 @@ Building an app based on Swampman could involve creating a game where users inte
 The app could feature levels that increase in complexity, starting with simple objects like diamonds and progressing to more complex items like art pieces or antiques. Each level would present users with information about the item's history, encouraging them to consider how this history affects its perceived value. The app could also include quizzes and mini-games to reinforce learning and make the experience more engaging.
 
 To gamify the concept, you could introduce competitive elements, such as leaderboards or achievements, that encourage users to explore more items and delve deeper into their histories. By making the exploration of history fun and interactive, the app would help users develop a better understanding of the importance of historical context in shaping our perception of meaning and identity.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

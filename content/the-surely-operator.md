@@ -23,3 +23,7 @@ To gamify the concept of the "Surely" Operator, consider developing an app with 
 4. Regular updates with new philosophical texts to keep the content fresh and engaging.
 
 By combining fun gameplay mechanics with essential philosophical concepts, this app could help cultivate critical thinking skills in an enjoyable way.
+
+
+## References
+- [Daniel Dennett: Tools for Critical Thinking - Farnam Street, accessed November 28, 2025](https://fs.blog/daniel-dennett-critical-thinking/)

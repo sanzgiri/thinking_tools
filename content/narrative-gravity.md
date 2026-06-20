@@ -29,3 +29,7 @@ An app based on Narrative Gravity could be designed to help users practice self-
 5. Personalized insights and reflections based on users' narrative data, offering guidance and encouragement for continued self-exploration.
 
 By providing a user-friendly platform for practicing Narrative Gravity, such an app could help individuals develop greater self-awareness, empathy, and adaptability, ultimately contributing to personal growth and well-being.
+
+
+## References
+- [Intuition Pumps and Other Tools For Thinking | PDF - Scribd, accessed November 28, 2025](https://www.scribd.com/document/845025919/Intuition-Pumps-and-Other-Tools-for-Thinking)

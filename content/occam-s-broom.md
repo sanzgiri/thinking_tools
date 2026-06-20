@@ -35,3 +35,7 @@ An Occam's Broom app could serve as a valuable tool for encouraging critical thi
 - A community forum for users to discuss topics, share insights, and collaboratively analyze arguments.
 
 By combining these features, an Occam's Broom app could help users develop essential critical thinking skills, promote informed decision-making, and combat the spread of misinformation in our digital age.
+
+
+## References
+- [Daniel Dennett: Tools for Critical Thinking - Farnam Street, accessed November 28, 2025](https://fs.blog/daniel-dennett-critical-thinking/)

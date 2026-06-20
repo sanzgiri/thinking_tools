@@ -34,3 +34,7 @@ A Heterophenomenology-focused app could gamify the concept by presenting users w
 5. **Leaderboards and Awards**: Competitive elements to motivate users, foster engagement, and encourage continuous learning.
 
 By gamifying the process of applying Heterophenomenology, an app could help people develop a critical, analytical approach to understanding subjective phenomena while engaging them in an enjoyable and interactive way.
+
+
+## References
+- [Intuition Pumps and Other Tools For Thinking | PDF - Scribd, accessed November 28, 2025](https://www.scribd.com/document/845025919/Intuition-Pumps-and-Other-Tools-for-Thinking)

@@ -19,3 +19,7 @@ To practice this tool, imagine you've earned Points in a game or accumulated a c
 To build a mobile or web app based on this tool, consider creating an interactive game where users earn Points by completing various tasks or challenges. The app could allow users to try cashing out their Points for real-world items, only to be informed that Points have no physical value and can only be used within the game.
 
 The app could also incorporate educational elements, such as explanations of the philosophical concepts behind Qualia and category errors. Additionally, it could include exercises or puzzles designed to help users practice recognizing and avoiding these errors in their everyday thinking. To make the experience more engaging, consider gamifying these exercises by awarding bonus Points or other rewards for correct answers or successful completions.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

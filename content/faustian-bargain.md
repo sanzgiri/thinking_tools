@@ -36,3 +36,7 @@ A Faustian Bargain app could gamify the de-jargonization process, making it both
 5. **Course Curriculum**: The app could also include lessons on the importance of clarity, effective communication strategies, and techniques for simplifying complex ideas.
 
 By making the process enjoyable, an Faustian Bargain app can help users hone their ability to communicate clearly while promoting a more accessible, understandable academic world.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

@@ -25,3 +25,7 @@ A potential app idea based on the concept of stotting could be a multiplayer gam
 The app could also include predator encounters, where stotting serves as a deterrent. If a player is being pursued by a predator, they can expend energy to perform a stot, making themselves appear larger and more agile, potentially scaring off the predator.
 
 To gamify the concept further, players could earn points for successful matings or resource acquisitions, and lose points for unsuccessful encounters or energy expenditure. The player with the most points at the end of each round wins the game. This app would not only provide entertainment but also serve as an educational tool to help users understand and appreciate the concept of stotting in a fun and interactive way.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

@@ -23,3 +23,7 @@ To build an app based on "Inert Historical Facts", it could feature a series of 
 The app could also include educational content explaining determinism, the misconception of inevitability, and how recognizing the responsiveness of the future can help individuals regain a sense of agency. To gamify the concept, the app could award points or achievements for making choices that lead to positive outcomes, encouraging users to engage with the tool regularly.
 
 Additionally, the app could include a feature allowing users to share their experiences and learn from each other, fostering a community of individuals who understand and apply this thinking tool in their lives. This social aspect would make the learning experience more engaging and enjoyable.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

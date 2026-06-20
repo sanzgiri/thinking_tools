@@ -39,3 +39,7 @@ Building a Symbol Matcher app would provide an engaging, interactive way to prac
 5. **Levels and Difficulty Settings**: Offer different levels of complexity to cater to users of varying skill levels. The difficulty can be adjusted by changing the number of symbols, syntax rules, or the complexity of the revealed sentences.
 
 By utilizing this app, users can practice separating syntax from semantics in a fun and engaging way, enhancing their understanding of Dennett's Semantic/Syntactic Engines concept.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

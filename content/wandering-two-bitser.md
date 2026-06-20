@@ -23,3 +23,7 @@ An app based on Wandering Two-Bitser could provide interactive exercises to help
 3. **Scenario-Based Learning**: The app could present users with scenarios inspired by real-life examples (like the balboa example) to help illustrate the concept.
 4. **Discussion Forums**: Users can discuss their findings and thoughts on meaning, context, and how these concepts apply to various scenarios.
 5. **Gamification**: To make learning fun, the app could include points, leaderboards, and achievements based on successful sensor tests and active participation in discussions.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

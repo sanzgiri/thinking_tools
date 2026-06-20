@@ -32,3 +32,7 @@ An app based on the Game of Life could offer various features to make learning a
 5. Community sharing: An integrated system for sharing patterns with other users would foster collaboration and competition, encouraging deeper exploration and understanding of the Game of Life.
 6. Gamification: Implementing challenges or mini-games that require users to create or manipulate specific patterns could make learning more enjoyable and engaging.
 7. Tutorials and explanations: Providing explanations and tips for various concepts would help users grasp the underlying ideas and encourage them to delve deeper into the system.
+
+
+## References
+- [Intuition Pumps and Other Tools For Thinking | PDF - Scribd, accessed November 28, 2025](https://www.scribd.com/document/845025919/Intuition-Pumps-and-Other-Tools-for-Thinking)

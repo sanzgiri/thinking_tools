@@ -15,3 +15,7 @@ To practice using Lay Audiences as Decoys, try the following exercise: The ELI5 
 Building an app based on The ELI5 Challenge would make learning and practicing this thinking tool more accessible and enjoyable. The app could feature a library of philosophical terms and concepts, each accompanied by a brief explanation for reference. Users could then take on the challenge to explain these ideas in simple language. To gamify the experience, users could earn points or badges based on their success in explaining complex concepts, with leaderboards allowing for friendly competition.
 
 In addition to helping users master Lay Audiences as Decoys, this app would encourage clear and concise communication, enhance critical thinking skills, and promote a deeper understanding of various philosophical topics. As users progress through the challenges, they'll find their ability to explain complex ideas in simple terms will improve, making it easier for them to communicate effectively with both experts and laypeople alike.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

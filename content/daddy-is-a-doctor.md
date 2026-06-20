@@ -28,3 +28,7 @@ An app built around the "Daddy Is a Doctor" thinking tool could provide interact
 4. Gamification elements: The app could include points, badges, and leaderboards to encourage active participation and make learning more enjoyable.
 
 By providing engaging exercises and fostering a community focused on understanding as a gradient, this app would help users develop the skills necessary to communicate effectively and empathize with others in a diverse world.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

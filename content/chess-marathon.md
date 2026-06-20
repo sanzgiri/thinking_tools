@@ -23,3 +23,7 @@ An app that implements the Chess Marathon thinking tool could feature:
 4. A discussion forum or collaborative space where users can share insights and discuss the implications of the Chess Marathon thinking tool on their understanding of free will, choice, and agency.
 
 By providing an accessible platform for observing and reflecting on the deliberation process of a chess engine, this app would not only serve as an educational resource but also foster critical thinking about the nature of decision-making in both artificial and human systems.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

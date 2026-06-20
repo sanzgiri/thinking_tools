@@ -24,3 +24,9 @@ A mobile or web application that embodies Dennett's "Making Mistakes" tool could
 5. **Community Features**: Include discussion forums or peer review options to enable users to share their mistakes, learn from others' experiences, and collaborate in problem-solving.
 
 By creating an app that encourages users to make mistakes and learn from them, we can help break the cycle of intellectual paralysis and promote a culture of continuous improvement and open-mindedness.
+
+
+## References
+- [Intuition Pumps: Philosopher Daniel Dennett on the Dignity of Being Wrong and Art-Science of Making Fertile Mistakes - The Marginalian, accessed November 28, 2025](https://www.themarginalian.org/2013/05/29/intuition-pumps-daniel-dennett-on-making-mistakes/)
+- [Daniel Dennett Presents Seven Tools For Critical Thinking | Open Culture, accessed November 28, 2025](https://www.openculture.com/2013/05/philosopher_daniel_dennett_presents_seven_tools_for_critical_thinking.html)
+- [Daniel Dennett: Tools for Critical Thinking - Farnam Street, accessed November 28, 2025](https://fs.blog/daniel-dennett-critical-thinking/)

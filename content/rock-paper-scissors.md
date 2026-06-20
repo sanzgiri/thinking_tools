@@ -26,3 +26,7 @@ An RPS-focused app could be designed to help users train their unpredictability 
 4. Social Integration: Allowing users to challenge friends or compete in global leaderboards, fostering friendly competition and enhancing the overall gaming experience.
 5. Gamification: Implementing rewards and achievements for achieving milestones, such as winning a certain number of games or demonstrating remarkable unpredictability.
 6. Tutorials and Tips: Providing educational content about Dennett's ideas and strategies to help users better understand and appreciate the philosophical significance of RPS.
+
+
+## References
+- [Intuition Pumps and Other Tools For Thinking | PDF - Scribd, accessed November 28, 2025](https://www.scribd.com/document/845025919/Intuition-Pumps-and-Other-Tools-for-Thinking)

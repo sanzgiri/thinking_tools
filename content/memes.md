@@ -26,3 +26,7 @@ To gamify the concept of memes, an app could be developed that allows users to c
 6. Educational Resources: The app could provide resources for understanding the concept of memes, including articles, videos, and quizzes about cultural evolution and Dennett's work on memes.
 
 By gamifying the concept of memes in this way, an app can help users understand and practice the tool while also fostering creativity, collaboration, and critical thinking skills.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

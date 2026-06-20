@@ -20,3 +20,7 @@ To practice identifying and combating the Three Species of Goulding, users can e
 
 ## Suggestion for Creating an App
 An app based on this concept could be designed as an interactive learning tool. The app could feature debates between scientists, politicians, or philosophers and ask users to identify instances of the Three Species of Goulding. Users would earn points for correct answers, which could unlock additional debates or levels of difficulty. Gamifying the learning process in this way makes it more engaging and encourages users to consistently practice their critical thinking skills. Additional features could include explanations of each fallacy, examples, and strategies for refuting them effectively.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

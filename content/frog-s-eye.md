@@ -30,3 +30,7 @@ Building an app based on the Frog's Eye concept could offer a variety of interac
 3. Discussion Forums: Provide a platform for users to share their thoughts, insights, and experiences related to the Frog's Eye concept, fostering community engagement and learning.
 4. Gamification: Implement game mechanics such as points, badges, and leaderboards to encourage repeated use of the app and make the learning process more enjoyable.
 5. Real-world Application Exercises: Offer exercises that help users apply the Frog's Eye concept to real-life situations, reinforcing its relevance in everyday decision making and problem solving.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

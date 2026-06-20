@@ -17,3 +17,7 @@ This exercise can be applied in real life by observing changes in natural and so
 A potential application of the Universal Acid concept could be an interactive strategy simulation game. The app would allow users to manipulate different systems (e.g., ecosystems, economies, or social networks) and introduce various selection pressures. As these systems evolve over time, users can observe how they optimize in response to the introduced pressures.
 
 The app could gamify this concept by awarding points for successful optimization or presenting challenges that require creative solutions. This would make learning about evolutionary principles engaging and accessible to a wide audience. Additionally, the app could include educational resources explaining the underlying principles of evolution and how they apply to the game mechanics.
+
+
+## References
+- [Universal Acid - Best Mental Models, accessed November 28, 2025](https://bestmentalmodels.com/2018/09/25/universal-acid/)

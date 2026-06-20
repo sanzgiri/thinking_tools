@@ -25,3 +25,7 @@ An app based on this concept could be designed to make these exercises engaging 
 To gamify the concept, the app could offer points for accurate placements, leaderboards to compare scores, and challenges that require users to justify their decisions based on evidence or argumentation. Additionally, the app could include resources for learning more about the entities and categories featured in the exercises, as well as related philosophical concepts.
 
 By creating an enjoyable and educational experience, this app would encourage users to think critically about the boundaries between categories and develop a more nuanced understanding of the world around them, all while having fun doing so.
+
+
+## References
+- [Dennett, Daniel. Intuition Pumps and Other Tools for Thinking. New York - Reason Papers, accessed November 28, 2025](https://reasonpapers.com/wp-content/uploads/2016/02/rp_372_16.pdf)

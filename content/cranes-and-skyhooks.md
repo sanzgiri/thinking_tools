@@ -31,3 +31,7 @@ The Cranes and Skyhooks concept could be gamified in a mobile or web application
 4. **Discussion forums**: Users can discuss their solutions, share strategies, and debate the merits of different explanations in a friendly, collaborative environment.
 5. **Progress tracking**: The app should track users' progress, allowing them to see how they improve over time and identify areas where they may need to focus more attention.
 6. **Customizable difficulty levels**: Users can adjust the complexity of the puzzles to suit their level of understanding and challenge themselves as they become more familiar with Cranes and Skyhooks.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

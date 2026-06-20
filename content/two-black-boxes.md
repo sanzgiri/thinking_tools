@@ -29,3 +29,7 @@ An app based on Two Black Boxes could be designed to help users practice this th
 2. Quiz Mode: Users could answer a series of questions about different systems (e.g., an AI, a beehive, or a flock of birds) based on their observed behavior. The app would provide hints about the internal workings of each system to encourage users to focus on function over mechanism.
 3. Gamification: Points, badges, and leaderboards could incentivize users to engage with the app regularly, reinforcing the Two Black Boxes concept in a playful manner.
 4. Real-world Examples: The app could provide examples of functional equivalence in everyday life, encouraging users to apply the Two Black Boxes thinking tool beyond the digital realm.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

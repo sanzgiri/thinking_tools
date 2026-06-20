@@ -41,3 +41,7 @@ An app based on Sphexishness could be designed as follows:
 ### Gamification:
 
 To make the app more engaging, gamify the experience by awarding points for completed tasks, milestones reached, and self-reflection entries. Offer badges for achieving specific goals or breaking free from identified loops. This will motivate users to continuously improve their lives and break free from unwanted behavioral patterns.
+
+
+## References
+- [Intuition Pumps and Other Tools For Thinking | PDF - Scribd, accessed November 28, 2025](https://www.scribd.com/document/845025919/Intuition-Pumps-and-Other-Tools-for-Thinking)

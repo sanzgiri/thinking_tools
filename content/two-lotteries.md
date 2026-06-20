@@ -24,3 +24,7 @@ An app based on the Two Lotteries concept could be designed as a gamified experi
 3. **Reflective Questions**: After each simulation, users could be presented with thought-provoking questions designed to encourage reflection on their feelings and the implications for free will.
 4. **Progress Tracking**: Users could track their progress over time, observing patterns in their reactions and gaining a deeper understanding of their intuitive assumptions about free will and determinism.
 5. **Discussion Forums**: Including discussion forums or peer-to-peer interaction would facilitate the sharing of insights and ideas, helping users refine their understanding of these complex philosophical concepts.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

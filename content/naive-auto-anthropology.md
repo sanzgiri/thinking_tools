@@ -26,3 +26,7 @@ Key features of such an app might include:
 4. Resources for further reading, including articles, essays, and videos, to help users explore their intuitions in greater depth and refine their philosophical understanding.
 
 By using Naive Auto-anthropology as a foundation, this app could empower users to question their assumptions, broaden their perspectives, and engage in constructive philosophical discourse with others from diverse backgrounds.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

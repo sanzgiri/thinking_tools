@@ -27,3 +27,7 @@ To build an app based on Dennett's Two Counter-images, consider creating an inte
 2. The app allows users to select, modify, and combine these stories as they compete for attention. Users can see which stories receive the most "clicks" (neural activation) and how different combinations of stories create coherent narratives—their consciousness.
 3. To encourage repetition and exploration, the app could include challenges or puzzles that require users to identify patterns in their thought processes or to manipulate the incoming sensory data in specific ways.
 4. The app could also track users' progress over time, providing insights into how their thoughts and experiences evolve as they practice the Two Counter-images thinking tool. This could help users better understand their own consciousness and develop more effective strategies for navigating complex thought processes.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

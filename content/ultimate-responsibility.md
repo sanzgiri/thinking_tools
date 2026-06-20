@@ -33,3 +33,7 @@ To turn the "Ultimate Responsibility" tool into an engaging and interactive app,
 5. A library of articles and resources on free will, moral responsibility, and other related philosophical concepts for further learning and exploration.
 
 By combining these elements, an "Ultimate Responsibility" app can help users develop critical thinking skills while fostering a deeper understanding of ethical decision-making and personal accountability in complex situations.
+
+
+## References
+- [Intuition Pumps and Other Tools For Thinking | PDF - Scribd, accessed November 28, 2025](https://www.scribd.com/document/845025919/Intuition-Pumps-and-Other-Tools-for-Thinking)

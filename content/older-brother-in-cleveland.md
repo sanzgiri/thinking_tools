@@ -31,3 +31,7 @@ The "Base App Idea" could be developed into a mobile or web application with the
 3. Reality Simulator: A virtual environment in which the user can simulate the character acting on their new belief to observe the consequences of the lack or presence of proper context.
 4. Gamification: Implement rewards, points, and leaderboards to encourage continuous learning and mastery of understanding context in belief formation.
 5. Discussion Forum: A place for users to share their experiences, learn from others' successes and failures, and engage in philosophical discussions about the importance of context in beliefs.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

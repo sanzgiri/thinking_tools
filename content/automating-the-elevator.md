@@ -28,3 +28,7 @@ Features might include:
 5. Gamification elements like points, badges, or achievements to motivate users.
 
 This app would not only allow users to practice the "Automating the Elevator" thinking tool but also help them understand its philosophical implications in a fun and engaging way.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

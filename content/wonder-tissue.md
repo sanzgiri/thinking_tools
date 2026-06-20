@@ -33,3 +33,7 @@ An app based on the "Wonder Tissue" thinking tool could be designed to teach use
 5. **Leaderboards and Achievements**: Gamify the learning process by offering leaderboards, achievements, and badges for completing levels, debunking arguments, and mastering materialist concepts.
 
 By creating an app that gamifies the Wonder Tissue thinking tool, users can learn about materialism in a fun and engaging way while simultaneously challenging their dualistic biases.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking | Summary, Quotes, FAQ, Audio - SoBrief, accessed November 28, 2025](https://sobrief.com/books/intuition-pumps-and-other-tools-for-thinking)

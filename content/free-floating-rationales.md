@@ -34,3 +34,7 @@ To gamify the concept of free-floating rationales and make it more accessible, c
 4. **Levels & Badges**: As users complete more challenges and contribute to discussions, they earn points, badges, and progress through levels. This gamification encourages users to engage with the app regularly and develop a deeper understanding of free-floating rationales.
 
 5. **Scientific Credibility**: Collaborate with experts in animal behavior and evolution to ensure that the information provided in the app is accurate, up-to-date, and engaging for learners of all ages.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

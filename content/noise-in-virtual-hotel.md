@@ -21,3 +21,7 @@ An engaging app based on the "Noise in Virtual Hotel" concept could be titled "T
 In addition to the thought experiment, the app could include gamified exercises where users try to predict guests' actions or uncover the underlying algorithms generating seemingly random sequences. Points, leaderboards, and rewards could be used to motivate users and make learning about this concept more enjoyable.
 
 The app could also provide resources explaining Dennett's philosophy and the implications of the "Noise in Virtual Hotel" thought experiment for our understanding of free will, determinism, and randomness. By making these complex ideas accessible through an interactive and engaging experience, users can deepen their understanding and appreciation of these philosophical concepts.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

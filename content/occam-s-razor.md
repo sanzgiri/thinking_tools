@@ -31,3 +31,7 @@ Creating an app based on Occam's Razor could provide a fun, interactive way to p
 4. Adaptive difficulty: Start with simple Mysteries and gradually introduce more complex problems as users gain confidence and skill in using Occam's Razor.
 5. Curated content: Collaborate with experts in various fields to create a diverse range of Mysteries that challenge users to think critically about different aspects of science, philosophy, and everyday life.
 6. Learning resources: Provide additional information about Occam's Razor, its history, and its applications in different contexts, helping users deepen their understanding of this important thinking tool.
+
+
+## References
+- [Daniel Dennett Presents Seven Tools For Critical Thinking | Open Culture, accessed November 28, 2025](https://www.openculture.com/2013/05/philosopher_daniel_dennett_presents_seven_tools_for_critical_thinking.html)

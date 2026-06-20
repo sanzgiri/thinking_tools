@@ -25,3 +25,7 @@ To gamify the Tuned Deck concept, an app could be designed as follows:
 5. *Leaderboards & Achievements*: Gamify the learning experience by offering leaderboards, achievements, and rewards for completing scenarios, reflecting on choices, and identifying patterns in decision-making.
 
 By applying the Tuned Deck concept in an interactive, engaging format, users can practice critical thinking skills, improve self-awareness, and gain a deeper understanding of their own decision-making processes.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

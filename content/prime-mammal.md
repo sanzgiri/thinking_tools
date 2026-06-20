@@ -25,3 +25,7 @@ An app based on the Prime Mammal concept could be designed as an interactive edu
 3. Gamification elements, like points, leaderboards, and achievements, to keep users engaged and motivated as they learn and practice using the Prime Mammal tool.
 4. A community forum where users can discuss their thoughts, share insights, and debate essentialist vs. gradualist perspectives on various topics.
 5. Educational resources and links to external articles for those wanting to delve deeper into evolutionary biology and Dennett's work.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

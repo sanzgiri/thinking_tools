@@ -2,6 +2,9 @@ import re
 import json
 import os
 
+from slugify import slugify
+
+
 def parse_dennet(filename):
     with open(filename, 'r', encoding='utf-8') as f:
         lines = f.readlines()
@@ -28,18 +31,31 @@ def parse_dennet(filename):
         if data_start != -1:
             current_tool = {}
             field_idx = 0
-            # Fields: Number, Name, Category, Short Description, Practical Exercise, iOS App Possible?
+            # NOTE: This parser is positional and tightly coupled to the exact
+            # current layout of dennet.txt: it assumes each tool is exactly six
+            # consecutive non-empty lines in this order:
+            #   Number, Name, Category, Short Description,
+            #   Practical Exercise, iOS App Possible?
+            # A single stray blank line or a field that wraps onto multiple
+            # lines will shift every subsequent tool by one. If you edit the
+            # source text, re-verify the output count (should be 77).
             
             for i in range(data_start, len(lines)):
                 line = lines[i].strip()
                 if not line:
                     continue
-                
-                # Check if it's a number (start of new tool)
-                # But "iOS App Possible?" values are Y/N/Maybe, so they won't be numbers usually.
-                # However, the field_idx should track it.
-                
+
+                # The master-list table ends before the bibliography. Without
+                # this guard the positional loop keeps consuming lines and
+                # mis-parses "Works cited" entries (e.g. "1. ...", "7. ...")
+                # as bogus tools. Stop as soon as we leave the table.
                 if field_idx == 0:
+                    if line.startswith("Works cited"):
+                        break
+                    # A real tool number is a small integer. Citation lines
+                    # look like "1. Intuition Pumps ..."; bail if we see one.
+                    if not re.fullmatch(r"\d{1,3}", line):
+                        break
                     current_tool['number'] = line
                 elif field_idx == 1:
                     current_tool['name'] = line
@@ -110,21 +126,45 @@ def parse_dennet(filename):
 
 def main():
     tools = parse_dennet('dennet.txt')
-    
+
+    # Drop any record that never got a detailed description from the main
+    # text. A real tool always has one; entries lacking it are parsing
+    # artifacts (e.g. stray bibliography lines).
+    cleaned = {}
+    for k, v in tools.items():
+        if not v.get('detailed_description'):
+            print(f"Dropping incomplete entry (no detailed description): number={k!r}")
+            continue
+        cleaned[k] = v
+    tools = cleaned
+
     # Convert to list and sort by number
     tools_list = []
     for k, v in tools.items():
         try:
             v['sort_num'] = int(k)
-        except:
+        except (ValueError, TypeError):
             v['sort_num'] = 999
         tools_list.append(v)
     
     tools_list.sort(key=lambda x: x['sort_num'])
-    
+
+    # Compute the canonical slug once, here, so every downstream consumer
+    # (content generation, references, the Next.js site) agrees on it.
+    seen_slugs = {}
+    for tool in tools_list:
+        slug = slugify(tool['name'])
+        if slug in seen_slugs:
+            print(
+                f"Warning: duplicate slug '{slug}' for "
+                f"'{tool['name']}' and '{seen_slugs[slug]}'"
+            )
+        seen_slugs[slug] = tool['name']
+        tool['slug'] = slug
+
     with open('tools.json', 'w') as f:
         json.dump(tools_list, f, indent=2)
-    
+
     print(f"Processed {len(tools_list)} tools.")
 
 if __name__ == "__main__":

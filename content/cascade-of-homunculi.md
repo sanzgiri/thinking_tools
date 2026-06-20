@@ -17,3 +17,7 @@ To practice the Cascade of Homunculi, users can engage in thought experiments or
 The Cascade of Homunculi can be gamified in a mobile or web app that presents users with complex tasks and challenges them to break these down into simpler steps. The app could feature different scenarios—like recognizing faces, understanding jokes, or solving mathematical problems—to help users understand various cognitive processes. Users could earn points for correctly breaking down tasks and lose points when they attempt to put a Smart Manager at the bottom of the cascade.
 
 Additionally, the app could provide explanations and examples for each step in the Cascade of Homunculi to help users better understand the concept. It could also offer advanced modes with more complex tasks, as well as leaderboards and achievements to motivate continued learning and practice. This gamified approach would make the exercise fun and engaging while helping users improve their critical thinking skills and gain a deeper understanding of intelligence.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

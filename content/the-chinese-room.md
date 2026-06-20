@@ -23,3 +23,7 @@ The Chinese Room thought experiment is essential because it challenges our under
 2. **Speed Challenge Mode**: Users can compete against each other or time themselves to see how quickly they can respond in the Chinese Room, creating an engaging and gamified experience.
 3. **Rulebook Editor**: Allow users to create custom rulebooks for specific scenarios or questions. This feature encourages exploration of different responses and discussions about what constitutes intelligent behavior.
 4. **Reflection Quizzes**: Periodically ask users to reflect on their experiences in the Chinese Room, encouraging them to think critically about AI consciousness and their own intuition regarding intelligence.
+
+
+## References
+- [Intuition Pumps and Other Tools For Thinking | PDF - Scribd, accessed November 28, 2025](https://www.scribd.com/document/845025919/Intuition-Pumps-and-Other-Tools-for-Thinking)

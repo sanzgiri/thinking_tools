@@ -19,3 +19,7 @@ An engaging app based on the Library of Mendel could feature various interactive
 The app could include challenges and levels that gradually increase the complexity of the filters, encouraging users to think more deeply about evolutionary principles. To make the exercise even more engaging, users could be awarded points for finding viable "books" (organisms) and unlock new levels as they progress. This gamification approach would help users grasp the concept in a fun and interactive way while also promoting critical thinking and problem-solving skills.
 
 Additionally, educational content such as explanations of key evolutionary terms, Mendel's work, and the role of natural selection could be integrated throughout the app to provide context and further deepen users' understanding of the subject matter. A social aspect allowing users to compare their progress and share discoveries with friends would also foster a sense of community and competition, encouraging continued learning and exploration.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

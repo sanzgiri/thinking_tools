@@ -27,3 +27,7 @@ To build a fun and interactive app based on The Paper Computer concept:
 3. Gamify the experience by introducing time limits, score tracking, and challenges to solve specific problems or patterns.
 4. Encourage users to share their creations, learn from others' solutions, and discuss the philosophical implications of the exercise.
 5. Offer additional educational resources for those interested in exploring Dennett's work and related topics further.
+
+
+## References
+- [9. Automata and Computers - Programming for Cognitive and Brain Sciences, accessed November 28, 2025](https://pcbs.readthedocs.io/en/latest/automata-turing-machines-and-computers.html)

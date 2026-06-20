@@ -17,3 +17,7 @@ Next, ask yourself: Was the change in my preference due to an intrinsic alterati
 Building an app based on the Curse of Cauliflower could be an engaging way to help users practice this thinking tool. The app could feature a "Flavor Graph" where users can map their taste preferences over time, visually representing changes in their attitudes towards various foods or drinks. Users could also log personal experiences and reflect on whether those changes were due to alterations within the objects themselves or shifts in their judgments.
 
 To gamify the concept, the app could include challenges or quizzes that require users to analyze hypothetical scenarios and make judgments about the role of qualia versus judgment. Points could be earned for correct answers, with rewards such as badges or unlockable content providing incentives for continuous learning and practice. This approach would create a fun and interactive platform for users to explore complex philosophical ideas while developing critical thinking skills.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)

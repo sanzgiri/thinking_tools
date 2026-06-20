@@ -1,6 +1,7 @@
 import { getTools, getToolBySlug, getToolContent } from '@/lib/tools';
 import ReactMarkdown from 'react-markdown';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import styles from './page.module.css';
 import { notFound } from 'next/navigation';
 
@@ -9,6 +10,26 @@ export async function generateStaticParams() {
     return tools.map((tool) => ({
         slug: tool.slug,
     }));
+}
+
+export async function generateMetadata(
+    { params }: { params: Promise<{ slug: string }> }
+): Promise<Metadata> {
+    const { slug } = await params;
+    const tool = getToolBySlug(slug);
+
+    if (!tool) {
+        return { title: 'Tool not found' };
+    }
+
+    const title = `${tool.name} — Dennett's Thinking Tools`;
+    const description = tool.short_description;
+
+    return {
+        title,
+        description,
+        openGraph: { title, description },
+    };
 }
 
 export default async function ToolPage({ params }: { params: Promise<{ slug: string }> }) {

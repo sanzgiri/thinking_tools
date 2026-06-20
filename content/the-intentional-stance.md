@@ -27,3 +27,7 @@ An app based on the Intentional Stance could be designed as a gamified learning 
 5. Gamification Elements: Implement game-like features, such as points, badges, and leaderboards, to make the learning experience more engaging and fun.
 
 By integrating these elements into an app, users can not only practice the Intentional Stance but also improve their critical thinking skills, communicate more effectively, and develop a deeper understanding of complex systems.
+
+
+## References
+- [Intuition Pumps and Other Tools for Thinking - Daniel C. Dennett - Google Books, accessed November 28, 2025](https://books.google.com/books/about/Intuition_Pumps_and_Other_Tools_for_Thin.html?id=9SduAwAAQBAJ)

@@ -25,3 +25,7 @@ A fun and engaging way to practice this thinking tool would be through a mobile 
 Users would be tasked with determining the species status of the two populations by making informed guesses about their genetic distance and reproductive compatibility. The app could provide feedback on users' answers, explaining the underlying factors that contribute to speciation and helping them develop a deeper understanding of this complex process.
 
 To gamify the concept, the app could include challenges with varying difficulty levels, leaderboards, and rewards for correct answers or quick responses. This would make the learning experience more enjoyable while still challenging users to think critically about evolution and speciation.
+
+
+## References
+- [Intuition pumps and other tools for thinking / Daniel C. Dennett. - Vanderbilt Library Catalog, accessed November 28, 2025](https://catalog.library.vanderbilt.edu/discovery/fulldisplay/alma991031850419703276/01VAN_INST:vanui)

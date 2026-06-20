@@ -27,3 +27,7 @@ The app could gamify the experience by rewarding users for creative solutions, o
 Moreover, the app could incorporate real-world challenges and encourage users to apply Jootsing to their personal and professional lives. This could involve providing resources, tips, and prompts to help users identify complex problems and find creative solutions in various contexts.
 
 By making creative problem-solving fun and accessible, such an app could inspire a new generation of thinkers and innovators, fostering a culture of creativity and adaptability in a rapidly changing world.
+
+
+## References
+- [Daniel Dennett: Tools for Critical Thinking - Farnam Street, accessed November 28, 2025](https://fs.blog/daniel-dennett-critical-thinking/)

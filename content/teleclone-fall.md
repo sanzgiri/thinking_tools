@@ -21,3 +21,7 @@ Ask yourself: Which of these two copies is "you"? This exercise encourages intro
 To gamify the Teleclone Fall concept, one could create an interactive app called "Personal Identity Voyager." The app would present users with various teleportation scenarios, each with varying levels of complexity and unpredictability. Users would have to make decisions that reflect their understanding of personal identity based on Dennett's Teleclone Fall.
 
 The app could include a progress tracker, allowing users to see their evolving perspectives on personal identity over time. It could also provide educational materials explaining the philosophical background and implications of the concept. By engaging users in an entertaining yet thought-provoking way, "Personal Identity Voyager" would serve as an effective tool for understanding and practicing Dennett's Teleclone Fall.
+
+
+## References
+- [Intuition Pumps and Other Tools For Thinking | PDF - Scribd, accessed November 28, 2025](https://www.scribd.com/document/845025919/Intuition-Pumps-and-Other-Tools-for-Thinking)

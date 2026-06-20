@@ -29,3 +29,7 @@ Building an app based on the Zombic Hunch can make philosophy more accessible an
 4. **Gamification**: To make learning more enjoyable, integrate game mechanics such as achievements, leaderboards, and progress tracking. Users can earn points for successfully building zombies, completing consciousness tests, and participating in discussions, encouraging them to explore the Zombic Hunch further.
 
 By combining these features into a cohesive app, users will be able to engage with the Zombic Hunch in an interactive and immersive manner, ultimately fostering a deeper understanding of one of Daniel Dennett's most intriguing philosophical tools.
+
+
+## References
+- [IntuitionPumpsAndOtherToolsfor, accessed November 28, 2025](https://virtualmmx.ddns.net/gbooks/IntuitionPumpsAndOtherToolsforThinking.pdf)
