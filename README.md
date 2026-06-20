@@ -1,6 +1,13 @@
 # Dennett's Thinking Tools
 
-A web app listing 77 thinking tools from Daniel Dennett's "Intuition Pumps and Other Tools for Thinking".
+An interactive web app presenting all 77 "intuition pumps" and tools for thinking from Daniel C. Dennett's *Intuition Pumps and Other Tools for Thinking* — each with a detailed guide and a practical exercise.
+
+**Live site:** https://tools-for-thinking.netlify.app/
+
+<!-- Replace with a real screenshot: capture the homepage, save it to docs/screenshot.png -->
+![Screenshot of Dennett's Thinking Tools](docs/screenshot.png)
+
+**Tech stack:** Next.js (App Router) · TypeScript · CSS Modules · Ollama (local LLM for content) · Python (content pipeline) · Netlify (hosting).
 
 ## Project Structure
 
@@ -67,3 +74,7 @@ Pushing to the `main` branch on GitHub triggers an automatic build and deploy.
 - The homepage supports **live search** and **category filtering** (client-side, in `site/src/app/ToolBrowser.tsx`).
 - Each tool page generates its own SEO metadata (`generateMetadata`) from the tool's name and short description.
 - If content for a tool is missing, the tool page displays a "Content Generating..." placeholder with the base description. (With all 77 files generated, this is a fallback that is not normally shown.)
+
+## License
+
+[MIT](LICENSE) © Ashutosh Sanzgiri.

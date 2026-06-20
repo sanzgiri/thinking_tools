@@ -43,12 +43,15 @@ export const metadata: Metadata = {
     title: "Dennett's Thinking Tools",
     description:
       "77 intuition pumps and tools for thinking from Daniel C. Dennett, with practical exercises for each.",
+    // Add a 1200x630 PNG at site/public/og.png for rich social link previews.
+    images: ["/og.png"],
   },
   twitter: {
     card: "summary_large_image",
     title: "Dennett's Thinking Tools",
     description:
       "77 intuition pumps and tools for thinking from Daniel C. Dennett, with practical exercises for each.",
+    images: ["/og.png"],
   },
 };
 
